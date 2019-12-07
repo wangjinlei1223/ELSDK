@@ -6,8 +6,13 @@
 //
 
 import UIKit
-import Alamofire
+//import Alamofire
 
-class Test: NSObject {
+import MMKV
 
+public class Test: NSObject {
+    public func request() {
+//        Ala
+        MMKV.default().set(true, forKey: "123")
+    }
 }
