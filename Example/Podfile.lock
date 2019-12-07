@@ -1,7 +1,9 @@
 PODS:
   - Alamofire (4.9.1)
-  - ELSDK (0.5.0):
+  - ELSDK (0.6.0):
     - Alamofire
+    - MMKV
+  - MMKV (1.0.23)
 
 DEPENDENCIES:
   - ELSDK (from `../`)
@@ -9,6 +11,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - MMKV
 
 EXTERNAL SOURCES:
   ELSDK:
@@ -16,7 +19,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ELSDK: 3659e6d526d43802304fc132a140111b9d0276a2
+  ELSDK: 5d90a85bba5a6379d645c8f69a1eefd5425df8be
+  MMKV: 031ae51aedc0af1b250922f7ed8a6b6ee2f94c4c
 
 PODFILE CHECKSUM: d9b1494d25082f7a3755ce7b5ba65c7c8fcfd2b3
 
