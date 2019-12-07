@@ -18,5 +18,8 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ELSDK/Classes/**/*"
+  "swift_versions": "4.0",
+  "source_files": "ELSDK/Classes/**/*",
+  "public_header_files": "ELSDK/Classes/**/*.h",
+  "swift_version": "4.0"
 }
