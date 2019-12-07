@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ELSDK_Example' do
+  pod 'ELSDK', :path => '../'
+
+  target 'ELSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

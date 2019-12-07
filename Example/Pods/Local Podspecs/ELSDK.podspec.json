@@ -1,0 +1,22 @@
+{
+  "name": "ELSDK",
+  "version": "0.1.0",
+  "summary": "A short description of ELSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangjinlei1223/ELSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangjinlei1223": "jinlei.wang@enerjoy.life"
+  },
+  "source": {
+    "git": "https://github.com/wangjinlei1223/ELSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ELSDK/Classes/**/*"
+}
