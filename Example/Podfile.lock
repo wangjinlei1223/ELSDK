@@ -1,15 +1,22 @@
 PODS:
-  - ELSDK (0.2.0)
+  - Alamofire (4.9.1)
+  - ELSDK (0.2.0):
+    - Alamofire
 
 DEPENDENCIES:
   - ELSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
 
 EXTERNAL SOURCES:
   ELSDK:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ELSDK: 8cc699af9cbafa652c38b1089c4643a37f3a785d
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  ELSDK: 5734e62d4039d536d4f374a99f4c99a2c8a74da0
 
 PODFILE CHECKSUM: d9b1494d25082f7a3755ce7b5ba65c7c8fcfd2b3
 
