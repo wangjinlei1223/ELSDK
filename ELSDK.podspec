@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ELSDK'
-  s.version          = '0.10.0'
+  s.version          = '0.11.0'
   s.summary          = 'A short description of ELSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Alamofire'
-  s.dependency 'MMKV'
+#  s.dependency 'MMKV'
   s.dependency 'KDCalendar'
   
 end
