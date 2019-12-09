@@ -1,5 +1,5 @@
 import XCTest
-import ELSDK
+//import ELSDK
 
 class Tests: XCTestCase {
     
