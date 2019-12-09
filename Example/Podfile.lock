@@ -6,7 +6,7 @@ PODS:
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - ELSDK (2.0.1):
+  - ELSDK (2.0.2):
     - Alamofire
     - Bolts
     - FBSDKCoreKit
@@ -41,11 +41,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  ELSDK: 07407b31880323890b0ff35fbc81bb8966cd2df2
+  ELSDK: 3943cf24b72e6d9f31d999a948ba126fe4d42fde
   FBSDKCoreKit: fa3ac4dc9b1afc9ae70b3de4dd704d1b6aeeed0d
   Flurry-iOS-SDK: be6bfad47f3b3c15a38b5e396935ef74512f1c38
   KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
 
-PODFILE CHECKSUM: d9b1494d25082f7a3755ce7b5ba65c7c8fcfd2b3
+PODFILE CHECKSUM: fc6135425f84a12fba9eb6c66a74b25ea7131d04
 
 COCOAPODS: 1.8.4
