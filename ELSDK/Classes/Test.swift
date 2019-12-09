@@ -9,12 +9,12 @@ import UIKit
 import Alamofire
 import KDCalendar
 
-import MMKV
+//import MMKV
 
 public class Test: NSObject {
     public func request() {
 //        Ala
-        MMKV.default().set(true, forKey: "123")
+//        MMKV.default().set(true, forKey: "123")
         
         var urls: URLConvertible = "123"
         
