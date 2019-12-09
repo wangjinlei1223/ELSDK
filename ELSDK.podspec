@@ -47,6 +47,6 @@ TODO: Add long description of the pod here.
   
   s.dependency 'FBSDKCoreKit'
   s.dependency 'Bolts'
-  s.dependency 'AppsFlyerFramework'
+#  s.dependency 'AppsFlyerFramework'
   
 end
