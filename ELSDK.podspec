@@ -45,9 +45,9 @@ TODO: Add long description of the pod here.
 #  s.dependency 'MMKV'
   s.dependency 'KDCalendar'
   
-  s.dependency 'FBSDKCoreKit'
-  s.dependency 'Bolts'
-  s.dependency 'Flurry-iOS-SDK/FlurrySDK'
+#  s.dependency 'FBSDKCoreKit'
+#  s.dependency 'Bolts'
+#  s.dependency 'Flurry-iOS-SDK/FlurrySDK'
   
   
 #  s.dependency 'AppsFlyerFramework'

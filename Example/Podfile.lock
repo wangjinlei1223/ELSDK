@@ -1,24 +1,8 @@
 PODS:
   - Alamofire (4.9.1)
-  - Bolts (1.9.0):
-    - Bolts/AppLinks (= 1.9.0)
-    - Bolts/Tasks (= 1.9.0)
-  - Bolts/AppLinks (1.9.0):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.0)
   - ELSDK (2.0.2):
     - Alamofire
-    - Bolts
-    - FBSDKCoreKit
-    - Flurry-iOS-SDK/FlurrySDK
     - KDCalendar
-  - FBSDKCoreKit (5.12.0):
-    - FBSDKCoreKit/Basics (= 5.12.0)
-    - FBSDKCoreKit/Core (= 5.12.0)
-  - FBSDKCoreKit/Basics (5.12.0)
-  - FBSDKCoreKit/Core (5.12.0):
-    - FBSDKCoreKit/Basics
-  - Flurry-iOS-SDK/FlurrySDK (10.1.0)
   - KDCalendar (1.8.2):
     - KDCalendar/EventManager (= 1.8.2)
   - KDCalendar/EventManager (1.8.2)
@@ -29,9 +13,6 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Bolts
-    - FBSDKCoreKit
-    - Flurry-iOS-SDK
     - KDCalendar
 
 EXTERNAL SOURCES:
@@ -40,10 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  ELSDK: 3943cf24b72e6d9f31d999a948ba126fe4d42fde
-  FBSDKCoreKit: fa3ac4dc9b1afc9ae70b3de4dd704d1b6aeeed0d
-  Flurry-iOS-SDK: be6bfad47f3b3c15a38b5e396935ef74512f1c38
+  ELSDK: eb1f1779f631435df5bd1d7dbb3bcc8934b2afeb
   KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
 
 PODFILE CHECKSUM: fc6135425f84a12fba9eb6c66a74b25ea7131d04
