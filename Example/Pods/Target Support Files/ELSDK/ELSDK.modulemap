@@ -1,4 +1,4 @@
-module ELSDK {
+framework module ELSDK {
   umbrella header "ELSDK-umbrella.h"
 
   export *
