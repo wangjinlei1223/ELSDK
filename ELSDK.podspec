@@ -47,6 +47,9 @@ TODO: Add long description of the pod here.
   
   s.dependency 'FBSDKCoreKit'
   s.dependency 'Bolts'
+  s.dependency 'Flurry-iOS-SDK/FlurrySDK'
+  
+  
 #  s.dependency 'AppsFlyerFramework'
   
 end
