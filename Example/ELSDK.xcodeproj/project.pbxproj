@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		7C03E1A7944D7E7B8B5ACBDB /* Pods_ELSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46A0227F0A3CCE733CD45322 /* Pods_ELSDK_Tests.framework */; };
-		E4886132F75D7B7582948289 /* Pods_ELSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27AA9DE81E5D70496EB0D28 /* Pods_ELSDK_Example.framework */; };
+		ACA6A07A8FCE99A03AA78EB0 /* libPods-ELSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3B5C12E79C79B943DC4E3AD /* libPods-ELSDK_Example.a */; };
+		F12BFC6AD87AD26A37A96922 /* libPods-ELSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2126F753E48FC4C502837D81 /* libPods-ELSDK_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		03B4A8E17B60A842D7E4F239 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		46A0227F0A3CCE733CD45322 /* Pods_ELSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2126F753E48FC4C502837D81 /* libPods-ELSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ELSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		95F258163C6D495756A546FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9B469B607C811BF373DBBE55 /* Pods-ELSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA4658FACD038654E48D76DE /* Pods-ELSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-ELSDK_Tests/Pods-ELSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B27AA9DE81E5D70496EB0D28 /* Pods_ELSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3B5C12E79C79B943DC4E3AD /* libPods-ELSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D6AB3483031D8AC126E526 /* ELSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ELSDK.podspec; path = ../ELSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA466CB16442047B52F2F77F /* Pods-ELSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ELSDK_Tests/Pods-ELSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4886132F75D7B7582948289 /* Pods_ELSDK_Example.framework in Frameworks */,
+				ACA6A07A8FCE99A03AA78EB0 /* libPods-ELSDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C03E1A7944D7E7B8B5ACBDB /* Pods_ELSDK_Tests.framework in Frameworks */,
+				F12BFC6AD87AD26A37A96922 /* libPods-ELSDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		C8C926E5621CB1E1E4C5239F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B27AA9DE81E5D70496EB0D28 /* Pods_ELSDK_Example.framework */,
-				46A0227F0A3CCE733CD45322 /* Pods_ELSDK_Tests.framework */,
+				B3B5C12E79C79B943DC4E3AD /* libPods-ELSDK_Example.a */,
+				2126F753E48FC4C502837D81 /* libPods-ELSDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BB503435FF21AFFE7B9B3A9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -282,30 +281,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB503435FF21AFFE7B9B3A9B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ELSDK/ELSDK.framework",
-				"${BUILT_PRODUCTS_DIR}/KDCalendar/KDCalendar.framework",
-				"${BUILT_PRODUCTS_DIR}/MMKV/MMKV.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ELSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCalendar.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMKV.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C821187784975E96EEBF81AC /* [CP] Check Pods Manifest.lock */ = {
