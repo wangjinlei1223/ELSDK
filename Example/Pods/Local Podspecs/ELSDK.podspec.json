@@ -1,6 +1,6 @@
 {
   "name": "ELSDK",
-  "version": "0.13.0",
+  "version": "2.0.0",
   "summary": "A short description of ELSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wangjinlei1223/ELSDK",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/wangjinlei1223/ELSDK.git",
-    "tag": "0.13.0"
+    "tag": "2.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
   "swift_versions": "5.0",
   "source_files": "ELSDK/Classes/**/*",
-  "public_header_files": "ELSDK/Classes/public/**/*.h",
+  "public_header_files": "ELSDK/Classes/**/*.h",
   "dependencies": {
     "Alamofire": [
 

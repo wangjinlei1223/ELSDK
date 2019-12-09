@@ -1,6 +1,6 @@
 PODS:
   - Alamofire (4.9.1)
-  - ELSDK (0.13.0):
+  - ELSDK (2.0.0):
     - Alamofire
     - KDCalendar
   - KDCalendar (1.8.2):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ELSDK: 83b07db3ae857673375f067e97adb6a9a69e14a5
+  ELSDK: d122d9071d1fe4e428cd79f929619de7db71e594
   KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
 
 PODFILE CHECKSUM: d9b1494d25082f7a3755ce7b5ba65c7c8fcfd2b3
