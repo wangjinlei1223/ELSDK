@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ELSDK'
-  s.version          = '2.0.2'
+  s.version          = '2.0.3'
   s.summary          = 'A short description of ELSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   s.dependency 'KDCalendar'
   
 #  s.dependency 'FBSDKCoreKit'
-#  s.dependency 'Bolts'
+  s.dependency 'Bolts'
 #  s.dependency 'Flurry-iOS-SDK/FlurrySDK'
   
   

@@ -1,7 +1,14 @@
 PODS:
   - Alamofire (4.9.1)
-  - ELSDK (2.0.2):
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - ELSDK (2.0.3):
     - Alamofire
+    - Bolts
     - KDCalendar
   - KDCalendar (1.8.2):
     - KDCalendar/EventManager (= 1.8.2)
@@ -13,6 +20,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Bolts
     - KDCalendar
 
 EXTERNAL SOURCES:
@@ -21,7 +29,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ELSDK: eb1f1779f631435df5bd1d7dbb3bcc8934b2afeb
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  ELSDK: 2c49f47c21e4c1c87b70735feea9ba117742c70a
   KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
 
 PODFILE CHECKSUM: fc6135425f84a12fba9eb6c66a74b25ea7131d04
