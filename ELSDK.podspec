@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
   
-  s.swift_version = '4.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'ELSDK/Classes/**/*'
   
@@ -43,5 +43,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Alamofire'
   s.dependency 'MMKV'
+  s.dependency 'KDCalendar'
   
 end

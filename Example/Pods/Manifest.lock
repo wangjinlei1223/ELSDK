@@ -2,7 +2,11 @@ PODS:
   - Alamofire (4.9.1)
   - ELSDK (0.8.0):
     - Alamofire
+    - KDCalendar
     - MMKV
+  - KDCalendar (1.8.2):
+    - KDCalendar/EventManager (= 1.8.2)
+  - KDCalendar/EventManager (1.8.2)
   - MMKV (1.0.23)
 
 DEPENDENCIES:
@@ -11,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - KDCalendar
     - MMKV
 
 EXTERNAL SOURCES:
@@ -19,7 +24,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  ELSDK: 540097b564c6daab3977f64c79756ea07898d5c3
+  ELSDK: a59b110a4d0acec12a71aaba0daf7fd1885beb39
+  KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
   MMKV: 031ae51aedc0af1b250922f7ed8a6b6ee2f94c4c
 
 PODFILE CHECKSUM: 5d108d14f45b2bb36a4c60c5b11d807e181769d9

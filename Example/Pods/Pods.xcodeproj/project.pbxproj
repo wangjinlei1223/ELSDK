@@ -7,95 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		081E2CF4B039A03CB2596B7A3B89DA6E /* ScopedLock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = AD03419A82E8258E3D00F71A8F7AFA8F /* ScopedLock.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2D2EB69D4426332BAB92129A31758 /* ParameterEncoding.swift */; };
-		1315DED02938FD55013F7C30E3F7469F /* MMKVHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E4BA77A2E83A10AC59C109BC873170FE /* MMKVHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FB401D290161DB0EDCF4BDBF06046 /* Notifications.swift */; };
-		15D8D56DF302F781046B791ECF8A01B1 /* MMKV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB08DA9D5F6FC68CD5B25100A218892 /* MMKV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		178310193D61EF73E38B65284C615A5F /* MMKV.h in Headers */ = {isa = PBXBuildFile; fileRef = 16098012C994B41737002C4E6485A3F4 /* MMKV.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B28D7FFBF4DC1123490B950F026DA7B /* Alamofire-dummy.m */; };
-		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB350F9BA538B9487EA5E2F144D8585A /* MultipartFormData.swift */; };
-		1B3A49BB70FBB47EA1FADE0AE75C12DE /* MiniCodedInputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 25CC0EB9B2DB84790F1D047F76366DCE /* MiniCodedInputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1CC70DB840B1D083D98C1EC67C79D66C /* Pods-ELSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7F8E8FCC740CD30E5904078C40CE19 /* Pods-ELSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		23B57B2CD3DC0661AF5C6AC7D183F6D3 /* openssl_aes_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B749E1E808E96BA83FEE9454FC4612D9 /* openssl_aes_core.cpp */; };
-		26F517CA0F04EB587D914A7F90851831 /* ELSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2B856B116105880F842B0E4FBF3B6D /* ELSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27EA5E5A756117E2057BF14995B3A1EA /* MMKV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7C3445FB4C9CEAB2B5343665334C7B /* MMKV-dummy.m */; };
-		291872824FA91FF7CF46AD55AB55917D /* MiniCodedOutputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A49CEF427EBB8E922489074B6DE7349 /* MiniCodedOutputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D911052471190BEC529929F5E77BA0 /* SessionDelegate.swift */; };
-		2FCA6EB2EF02583BFA7FA6205507DB58 /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 468EC386D69E01C3F50DC0AFF8875506 /* AESCrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A487788B7DEB0605B6CA712788A7A582 /* NetworkReachabilityManager.swift */; };
-		35BBA1441CD6632A8ADB7CA21B270045 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */; };
-		3B276E4CBE9157C77552FBF78BE8AAD6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CD0E638DE736E6EE6779A581017B3 /* ReplaceMe.swift */; };
-		3E8DA43BEFFF524155400F21BBA4424D /* MiniPBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FE6740347B89FFCADE00445381F11F /* MiniPBUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		461C97D96AF6FFF0F73A9E5DF49AE6DA /* MMKV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D68DC14EFF945919DC620F8331DD68C /* MMKV.framework */; };
-		4737CF0CFFE370A5BC4871FED21082A8 /* MMKV.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2522DBCDC36F58802DE1D7EDB9ADAD5 /* MMKV.mm */; };
-		49A6C6903D13F4642E34C7977CDF0144 /* openssl_md32_common.h in Headers */ = {isa = PBXBuildFile; fileRef = B6583651790EB29CA44D26341ADAF5AC /* openssl_md32_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CDCA43BB32D3761A2F888759CFD6FD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2AF5427978F4FE3A57BBC0E2970819 /* UIKit.framework */; };
-		4DAC370B598EF443F7A064CBA7244C82 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA1B38019435B770764CF4558BBB1C4 /* CoreFoundation.framework */; };
-		4F747B5179CA3BDDEC9E8E6C013061B8 /* openssl_opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D26D94A4D0E1C9F13629B68322E9BF /* openssl_opensslconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5087C716C48A35092D77CA23C6E67472 /* MiniPBCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC34DDF21BA0FB08E2174E2DB90303C /* MiniPBCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386FF99D52F4174E6CD172C5F7694B2A /* Validation.swift */; };
-		5B47E1DAD53434BAE56C9AB1A81D019D /* openssl_aes_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 941D3B8E3F17AF979FC4B8BBD5D42105 /* openssl_aes_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		64299AE9D0F9DCE539F8EAE8DDCF3A0A /* MiniCodedOutputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE04FE08C75C221D09B152E6DEEE51A0 /* MiniCodedOutputData.mm */; };
-		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F32DB9E4624BDC244435A3F594E0C0 /* Result.swift */; };
-		6A3877573E412CA5D5856054877B6173 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA905851BE7BCDA229D2E4891606C6 /* Test.swift */; };
-		6C04F8557FFEC04ECF4434CA6BBBBA42 /* MemoryFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = E14C60DA861706ABD78782472EC982DB /* MemoryFile.mm */; };
+		00FB94E763DB579D34847AF712729A66 /* openssl_aes_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = C6BF8C0F1EBA97689345095101C80769 /* openssl_aes_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		08AA42422C71B8F2D4A25862BCC6EFDB /* AESCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C6CFC35B3C4001836B6C981FD8E1FD /* AESCrypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C5E11DE24DAA737704B355F5F2F3426 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48F45CF11A557C9AEF5EC1706D55EE8 /* ParameterEncoding.swift */; };
+		107A3043319B7F4986F4BBD3E4312B4E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920CD0E638DE736E6EE6779A581017B3 /* ReplaceMe.swift */; };
+		132E0F619E4338E5D1B27E4C72076B3F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5F4DEEB917BF3FBDA8F969ECA42D87 /* Notifications.swift */; };
+		170C1895856D9BA93436EE2B864CECF1 /* openssl_md32_common.h in Headers */ = {isa = PBXBuildFile; fileRef = A63094FC6A3E83F7E9C3540803E9A478 /* openssl_md32_common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1945CD5D63A1C164AEAAA9A33E85571E /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA4102D8C4769186771FED709CBE2611 /* Alamofire-dummy.m */; };
+		1986B50C74F1697EA43F68335C93CEB3 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439F24E22DDA3D447225D9382CAB089 /* MultipartFormData.swift */; };
+		1C59DA9123E6C252986E5467CCF86132 /* MMKVLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2971C156D6B7BF2802071A38185A34A6 /* MMKVLog.mm */; };
+		1D27ADEE002515DE2BF2F3868DA463F6 /* openssl_opensslconf.h in Headers */ = {isa = PBXBuildFile; fileRef = 065AFB8E6CF869A558193853B6202212 /* openssl_opensslconf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F501E1D166863548D75D1236384FFD1 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5131B131FE7B995EF3344942DA276987 /* CalendarView+Style.swift */; };
+		2065C1F02C8405401A98266128AA4D39 /* EventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF8993EEBC30FDC82332105558ED28C /* EventsManager.swift */; };
+		2132E0342F2346B6CDC2CC1562EDBD94 /* openssl_md5.h in Headers */ = {isa = PBXBuildFile; fileRef = B67C7459EAE578E5827546772AE55758 /* openssl_md5.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22514BE81A406E746F92053587E35338 /* MMKV.mm in Sources */ = {isa = PBXBuildFile; fileRef = 90B3232503852666370F84A96ECA1B96 /* MMKV.mm */; };
+		23942FD567E9B313E1A443657905C980 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE107049D8CA199F5C7767B1071DF9AA /* CalendarView+Delegate.swift */; };
+		23955BF56D4DF6442433B180173083D4 /* AESCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7BD7AEDF87FDDED69C62FBC370225779 /* AESCrypt.mm */; };
+		245E2FBF1F30C0F8CEC1272BE3930150 /* MMKV-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB05533F637692E33D46D390749446D /* MMKV-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28BC9A2D482C3FB93466CF588911B349 /* MiniPBUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = FBF0F1AB1733C116F3929F45CF4658E3 /* MiniPBUtility.mm */; };
+		29C9985B43155AB7195C77A4E6E07D05 /* Pods-ELSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7F8E8FCC740CD30E5904078C40CE19 /* Pods-ELSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A0F8FE1D7494CB00A35CC59B902E73A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		2AB8C897F06E71F3A0BEC3339EA9F9A4 /* CalendarView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E7A9660FCAAAC4A2437B02ACB7A73 /* CalendarView+DataSource.swift */; };
+		2C61B040BA6A9A7AE66C4D9BA26D5520 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D49DA03176204A85B75E8EA742A919 /* SessionDelegate.swift */; };
+		2F1B281C1847D50167AD6A221A6210CA /* MiniCodedOutputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9671EA9196D5D21DC9C5FBCBD3403F88 /* MiniCodedOutputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		31A24CEE37E9EC0F91110ACDC51B9840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		3571F958A3907B3A806E62D50C2550D4 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A92B3410F9A701FB1E7B6BBFB1517 /* NetworkReachabilityManager.swift */; };
+		397FD36318DD7472DFAA8F8B7DB80601 /* MiniPBEncodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBF7F7A315B62C1CFC7B2C0D24762C8 /* MiniPBEncodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ED0F96E575C0830018B18DAAB5C7920 /* ELSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2B856B116105880F842B0E4FBF3B6D /* ELSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43FC91AF4A88DCAAFCC527BC7D77AEB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		4481369E2EAD24114B3B4DAD97E8A741 /* openssl_aes.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F52E2F2767BA25D495CABA3429EAC3 /* openssl_aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		47B02F1D869111E757EB76F7840F0E92 /* openssl_md5_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 047FE36EA4FEE69D0DC1B40F274ED95C /* openssl_md5_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		498559B304C395158CDBA95EEEA71BA2 /* MMKV.h in Headers */ = {isa = PBXBuildFile; fileRef = 821D95C441AF7D4AC86689187152ED6B /* MMKV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		523B9D067F0DE33E825364662A879FD1 /* MMKVHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 510A0F2CA11A5EF8D609F907D939C0A3 /* MMKVHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53791F5E5F07400F92CFDFC89A432305 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601536275953D4DDE1A760345A96C97D /* Validation.swift */; };
+		55FADBBEAC88B7A954A1CA6CEA4DD093 /* KDCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E744B7EA81EB6C6E93B5F6B3DE76E956 /* KDCalendar.framework */; };
+		64744C911253C3E01461FAD7C935C8D7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B93E687D700949459AB04339D0215 /* Result.swift */; };
+		67D0C6CCCF6D936342E207B4F27986F3 /* MMKV-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A33CA8C49903035A3171BEDB0568CA /* MMKV-dummy.m */; };
+		69E08155873F500FB1E90E6FB6D87943 /* openssl_modes.h in Headers */ = {isa = PBXBuildFile; fileRef = C76A219F796E80A403E36B85E934D95A /* openssl_modes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A991A5F391D7FE4B96C1138386211C8 /* LRUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 4E1485C9F10973FE5390D2687DC88DE9 /* LRUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		6A9F1462CC882CD3141BDBE14FDA4E01 /* openssl_aes_cfb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3A82EAA3AB94D573406F022E080F2D77 /* openssl_aes_cfb.cpp */; };
 		6C1C6EF7CDEFDAB4E5E39448B54850D0 /* Pods-ELSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0491BB45D215A3FAB88A2A5663F93420 /* Pods-ELSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E6451B067CE2F4CBDCE7D560217E3E3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E36BC399E0C0F359F834FDC3AEE8C92 /* Alamofire.framework */; };
-		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */; };
-		7BA15037C856A97E5EBD11FE77243675 /* openssl_aes.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE1ECBFFFDB49866CB80F57E41A0390 /* openssl_aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F426EB356E3CC738A08DC2815937823 /* AFError.swift */; };
+		6C9C09655A86D8BFCA140E62DB31E438 /* openssl_md5_dgst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C434853443561162573B5CA7DED8083C /* openssl_md5_dgst.cpp */; };
+		74248A30C7312BBF2DC3706A9989E4E4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318B837C4DD2D570C78581738D5B5C9C /* Alamofire.framework */; };
+		7664FD4F59A0C00866CBAE60B0A3AD64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		78FA82016357D0AD7D549887E87F2BD8 /* MemoryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E27670C8C3F48C0BD54CD50928302E /* MemoryFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8176D8A8C67EBE7804CD8437658C290B /* KDCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D188CD1670229AD5F7196E528571A95 /* KDCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83956E20859CDBBE7BC38ABADE0170FB /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF8178F4B7C8CE67EE2AC36937E917D /* AFError.swift */; };
+		84F9F837FAA823A7707F81EFEA8D33AE /* ScopedLock.hpp in Headers */ = {isa = PBXBuildFile; fileRef = DA49FAAE5ECD5A2A9DC12A4A9459073F /* ScopedLock.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		86CCD0725C6180C6C3CA0ABA97DB7E2C /* ELSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07E8C9183A76C1CA338CFE2722EFB8 /* ELSDK-dummy.m */; };
+		87E38B82972BA6E08669B3485EFF5A95 /* MiniCodedInputData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BD1582C50A6A188C37F1ACCF65DF84A /* MiniCodedInputData.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8C15DCD0742E7C9878F5CA36C9ED0A23 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6A33563A9BEE35128E05104741F872 /* CalendarFlowLayout.swift */; };
 		91962BFC37596020D49FADEDA97392B9 /* Pods-ELSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3F9ECA249DEE1301839898D569A9D7 /* Pods-ELSDK_Tests-dummy.m */; };
-		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3557EA6F0227B759B7AD77C02C53E0 /* SessionManager.swift */; };
-		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936CF6809861C15A44056F4608A74976 /* Timeline.swift */; };
-		972CAF0E9E773C56ADCD056FB276FE44 /* LRUCache.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8F1453A97CE48151E195FA47F47CC340 /* LRUCache.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A76A2C71D2F02BC51F1143464951F68 /* Request.swift */; };
-		9BD09AA888FBFEEAD59902E985D5FB8F /* MMKVMetaInfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 05EFBEF528CBD529F06DC0A29E9E2FBB /* MMKVMetaInfo.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
-		9CA9F51704805000266078B5D266F490 /* AESCrypt.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8171A69D7C7342402642D2DB8549F27D /* AESCrypt.mm */; };
-		A0A3E8701385AEDB38418316A816B2ED /* openssl_md5_one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7E11565AFC099650DF513C730C76798 /* openssl_md5_one.cpp */; };
-		A428584A809D727E73478D97BD6F0CAC /* MMKVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D98F79482634BA7486193A7C80C4546 /* MMKVLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ABB1E4006EC46652D5FEEB73E6944D0E /* openssl_cfb128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4992F76CA2B69DD6BE27A1CF96EAB5DF /* openssl_cfb128.cpp */; };
-		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F567716B89C2CC05F0D1E7FE88070EFE /* TaskDelegate.swift */; };
-		B301855CF3459FE0A574D74512A125D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */; };
-		B4D454D4437908015A6D455CB5F95395 /* MemoryFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DFC960E382A060FCB382C45C00E1937 /* MemoryFile.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B645E35526439F6818DAF383470CEC39 /* MiniPBUtility.mm in Sources */ = {isa = PBXBuildFile; fileRef = C865A0202F4A127FE23A865BEB2008FF /* MiniPBUtility.mm */; };
-		B7E2BE3C9CCF3C97D1E6985929D9266F /* openssl_modes.h in Headers */ = {isa = PBXBuildFile; fileRef = B832728E87D14BE511E7EAA985E351A9 /* openssl_modes.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BC75F9E533CC5F42E3C7603985EC817F /* MiniCodedInputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 043C43947DBE8CDB1D803D7F3B7AF0D5 /* MiniCodedInputData.mm */; };
-		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A432A0B5517196A2DE5E7B83A6D18DD3 /* Alamofire.swift */; };
-		C918CD3493AA03438E09DEFDCE446E18 /* openssl_md5_locl.h in Headers */ = {isa = PBXBuildFile; fileRef = 097633C3320CF1226FD7E0DF268E00E9 /* openssl_md5_locl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF6FE63D83B7FD2CDA5031656BA301E6 /* MiniPBEncodeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 15ADEABD1B8C0DB537DF6FF9959D73A6 /* MiniPBEncodeItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B16580366B67108BE24B5AB5D5FB1AC /* DispatchQueue+Alamofire.swift */; };
-		D418A8C46E52839DEF232C62209CB6DD /* Pods-ELSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB61188C730B054F64E292BC0C20B9 /* Pods-ELSDK_Example-dummy.m */; };
-		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF456828575BFFAC705633DE0BCA2F1B /* Response.swift */; };
-		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A647671FAB83B525B227D50635ADFF6 /* ResponseSerialization.swift */; };
-		E494F8B8DE19F6B3F6EADB6688FF3091 /* MMKVLog.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7E0585ED1A9F59DDF75FDAD973FBE942 /* MMKVLog.mm */; };
-		E6AF75967CBC2C109AC3957E1BF79CAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */; };
-		E7CD31A335B39F7A957B371D26E583DB /* openssl_md5.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDC29A60800AD2D3CED3FE4C03BDCC2 /* openssl_md5.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EBC1F129B5EF2DCF764D8C3832D0C409 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */; };
-		F00D04EB066C7BBAE0DBB3EF439AAD72 /* openssl_aes_cfb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B04CA52DFE89DEFD860C7409AD15D /* openssl_aes_cfb.cpp */; };
-		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8719E512B3B0A6ED6579F3FFF174F0DE /* ServerTrustPolicy.swift */; };
-		F365D43D46D278C2A92381155EA4C4AD /* openssl_md5_dgst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C1684FDD9EBB797E94B16F01473BB29 /* openssl_md5_dgst.cpp */; };
-		F61B855163CD7CC4170F9D02CCCE8D6E /* ELSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D07E8C9183A76C1CA338CFE2722EFB8 /* ELSDK-dummy.m */; };
-		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B965AF368734255C6CA7EEC24AB3C1A /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F842D7B46216F51DEA476F04BB372DAD /* MiniPBCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEE58FF649E1CAB991990BBF0D347712 /* MiniPBCoder.mm */; };
+		931BBB8230A25161D5C37528A8F9FECF /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5AB365A1F9627E97DB79F5F631538E /* SessionManager.swift */; };
+		933FDA5970AA525D6CB92BFEBA2BAB4A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F052490078A58A9482144576ED1115F /* Timeline.swift */; };
+		989EDBC13194B0CBB52457DEA704CC30 /* MiniCodedInputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 35A6E0D28299C2AB6028D7FA7703A460 /* MiniCodedInputData.mm */; };
+		98A929C8E9012AB167672714FFD2113C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333BA73456F429EBBF333EC9D6CF4A9F /* Request.swift */; };
+		992624E0A9821CEF46856C48DFEF25ED /* MiniCodedOutputData.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9E23D3E7FEE6464027140867A2ED8186 /* MiniCodedOutputData.mm */; };
+		9E42285EB548FCA4D437B627D8C20D09 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752BB26E2AEF6219FD1E6CBC9395EA75 /* CoreFoundation.framework */; };
+		A8F52F7BC9B68CB52F22A124064B5849 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36665D93961A11E9851286C4B0689D99 /* CalendarDayCell.swift */; };
+		ABC85F98239DE80600316FAE /* UIView+Toast.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC85F8B239DE80500316FAE /* UIView+Toast.h */; };
+		ABC85F99239DE80600316FAE /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC85F8C239DE80500316FAE /* UIView+Toast.m */; };
+		ABC85F9A239DE80600316FAE /* libFlurry_8.5.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC85F8E239DE80500316FAE /* libFlurry_8.5.0.a */; };
+		ABC85F9B239DE80600316FAE /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC85F8F239DE80500316FAE /* Flurry.h */; };
+		ABC85F9C239DE80600316FAE /* FlurryConsent.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC85F90239DE80500316FAE /* FlurryConsent.h */; };
+		ABC85F9D239DE80600316FAE /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC85F91239DE80500316FAE /* FlurryEmpty.m */; };
+		ABC85F9E239DE80600316FAE /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC85F92239DE80500316FAE /* FlurryWatchEmpty.m */; };
+		ABC85F9F239DE80600316FAE /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC85F93239DE80500316FAE /* FlurryWatch.h */; };
+		ABC85FA0239DE80600316FAE /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = ABC85F94239DE80500316FAE /* FlurrySessionBuilder.h */; };
+		ABC85FA1239DE80600316FAE /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC85F95239DE80600316FAE /* FBSDKCoreKit.framework */; };
+		ABC85FA2239DE80600316FAE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC85F96239DE80600316FAE /* Bolts.framework */; };
+		ABC85FA3239DE80600316FAE /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC85F97239DE80600316FAE /* AppsFlyerLib.framework */; };
+		AC8471E44B3BEF6339E63771382B6B3A /* openssl_md5_one.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 564D62E62D88CEBAB7DB52F43B298835 /* openssl_md5_one.cpp */; };
+		AD5311073FD4A2DC444252E1C62630E5 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FA905851BE7BCDA229D2E4891606C6 /* Test.swift */; };
+		AF4F32F8A0FA983817CB1ED27C038166 /* Pods-ELSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BB61188C730B054F64E292BC0C20B9 /* Pods-ELSDK_Example-dummy.m */; };
+		AFC64B1097F7355FF423D6A73E9C7210 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18818D6CF8ED2976FC7D1422CA099BD9 /* TaskDelegate.swift */; };
+		B5116967AC490A1BE5A5CE82B85EB7C3 /* MiniPBUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C0FAF798B177915152A4C176FE26EA54 /* MiniPBUtility.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8932304644A72A7643C996138AD5D7B /* MMKVLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 65DFE3D5890E418C4932CE4FE6F63C98 /* MMKVLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE96BB07F008B16ECEB169822D155142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		BEE6B677416CA71C981D1D3F60B18C96 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43FB2FC65C9912CBAF0679BF6449A62 /* Alamofire.swift */; };
+		BF6753716D66FC171551C7B7C27516EA /* MMKVMetaInfo.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 3878379FD78706E6CCD63812D5B8FAB8 /* MMKVMetaInfo.hpp */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2E18A96CD1AEBF817AC574EDD2662DF /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9721E741EC81778A62E45F5B54E1153 /* CalendarView.swift */; };
+		C5D6897BCF512BFCB3F67B9E7C2E2FF1 /* MMKV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E33457B11C80DFA529B6FF2E96C15E5 /* MMKV.framework */; };
+		C8E82085FF9795EEBB06330275807F52 /* openssl_cfb128.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60ABE7DFB386CE6BC843AFCB65411F9F /* openssl_cfb128.cpp */; };
+		C97E3CE683DE8B5B7B449CE347F451D0 /* KDCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D8984CED5310F83F022AECE03FA30E /* KDCalendar-dummy.m */; };
+		CAAD0F24491F13CE98734A05183BE63F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DC917ADE3B3168292DDA715ABE12BA /* UIKit.framework */; };
+		D3D8C379C6E4FB487E5ABD6800AD7B7E /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F17691FF1FC6EB21881B7263A85FB8 /* DispatchQueue+Alamofire.swift */; };
+		D65C254F5ABF2CB5ECEE50FE8F8E1A80 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2825F738788F2F0B7C0E0E89A82552B /* Response.swift */; };
+		D860DC31B7DBC7331123BB5D3138078D /* CalendarView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00462BBF92A2DD3EBFC690DAD47DAF5 /* CalendarView+Extensions.swift */; };
+		DF1A57D99E965706F6D7F2A25A71BE5E /* openssl_aes_core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73B18918F251011FC68B839B17EB7E74 /* openssl_aes_core.cpp */; };
+		E3747EC31FCCA97D75A81FC700CF7E24 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF02F3DE1EC8E78148B4A1FE9447C50 /* ResponseSerialization.swift */; };
+		E6AF75967CBC2C109AC3957E1BF79CAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */; };
+		EBA1061BAA5725AEC725DEE9FF11B249 /* MemoryFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 894DD644BB172F0EDD35841C8E222848 /* MemoryFile.mm */; };
+		EFB44DDF2D2FA57F345910F4E4E51D4C /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4942A15BE11E59A7D4E6A8C603AF1E /* CalendarHeaderView.swift */; };
+		F13F2AA7F2E6D95A181CAB99B900D531 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF025ACAE46E12101BB2F3FCD7B9EE6 /* ServerTrustPolicy.swift */; };
+		F5D31984018185D4CF2917D669A28019 /* MiniPBCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = CB65CC6732BEE9E7488D5D0C73A064BB /* MiniPBCoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F7B74645E07C39771156A1FA413B98D4 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6B212F5DCD0CDC65AEA44C2D73594D /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86550A12B76E24196B15CE142E311DA /* MiniPBCoder.mm in Sources */ = {isa = PBXBuildFile; fileRef = BA71B65F82A5C91B5E34EAAF762D0C7C /* MiniPBCoder.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		364D831E585BE3DE181A6723A2B201C9 /* PBXContainerItemProxy */ = {
+		05B8A550C548B812170EB31328C71188 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722EB06E15550E3888A9C58D04440811;
+			remoteInfo = ELSDK;
+		};
+		43DC0702E4FADDE3840DCA021053B37B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
+			remoteInfo = KDCalendar;
+		};
+		697BF7357DD9ED730A43A7A6625D67EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB7A4D260FDCE05D3AB31199589BBE5;
+			remoteInfo = KDCalendar;
+		};
+		7EBF531C3EAFA06E765251A89FE384E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91A6826828CB9FCD0169A7547E8A79EA;
 			remoteInfo = MMKV;
 		};
-		454197EF5048DECB4914A69C3A41C119 /* PBXContainerItemProxy */ = {
+		85D69D12E9B5021229F1D6C5C2AC141E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		75C2A83DAEB901EAE5F773797B245F48 /* PBXContainerItemProxy */ = {
+		9BE0C1617621454D7D210ACF4C3FD641 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -109,14 +155,7 @@
 			remoteGlobalIDString = 2CA990AF6FD8925DB1F114832E048A3C;
 			remoteInfo = "Pods-ELSDK_Example";
 		};
-		F6C2488526B8436D198C0D8E1B95C51D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 722EB06E15550E3888A9C58D04440811;
-			remoteInfo = ELSDK;
-		};
-		F9AA7DDF301C5A19F2B0FA7A570FF069 /* PBXContainerItemProxy */ = {
+		D56E0FD220680FB6FB339F743F963765 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -127,109 +166,153 @@
 
 /* Begin PBXFileReference section */
 		00FA905851BE7BCDA229D2E4891606C6 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = ELSDK/Classes/Test.swift; sourceTree = "<group>"; };
-		043C43947DBE8CDB1D803D7F3B7AF0D5 /* MiniCodedInputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniCodedInputData.mm; path = iOS/MMKV/MMKV/MiniCodedInputData.mm; sourceTree = "<group>"; };
+		047FE36EA4FEE69D0DC1B40F274ED95C /* openssl_md5_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_locl.h; sourceTree = "<group>"; };
 		0491BB45D215A3FAB88A2A5663F93420 /* Pods-ELSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ELSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		05EFBEF528CBD529F06DC0A29E9E2FBB /* MMKVMetaInfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKVMetaInfo.hpp; path = iOS/MMKV/MMKV/MMKVMetaInfo.hpp; sourceTree = "<group>"; };
+		065AFB8E6CF869A558193853B6202212 /* openssl_opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_opensslconf.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_opensslconf.h; sourceTree = "<group>"; };
 		097194CA81EC18236BEC11525C2ED445 /* Pods-ELSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		097633C3320CF1226FD7E0DF268E00E9 /* openssl_md5_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_locl.h; sourceTree = "<group>"; };
-		0AA1B38019435B770764CF4558BBB1C4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		0E36BC399E0C0F359F834FDC3AEE8C92 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13241C265049A9CCFED80812EAFC0451 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		132EB9838D459FE0501327AD145E4F72 /* ELSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ELSDK.modulemap; sourceTree = "<group>"; };
-		157760BD24E05B9BAD40E9D07140640D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		15ADEABD1B8C0DB537DF6FF9959D73A6 /* MiniPBEncodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBEncodeItem.h; path = iOS/MMKV/MMKV/MiniPBEncodeItem.h; sourceTree = "<group>"; };
-		16098012C994B41737002C4E6485A3F4 /* MMKV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKV.h; path = iOS/MMKV/MMKV/MMKV.h; sourceTree = "<group>"; };
-		179375ADF6CEC16FE26ED859C5802018 /* MMKV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMKV-Info.plist"; sourceTree = "<group>"; };
-		1D68DC14EFF945919DC620F8331DD68C /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E814A4AA65FB746B68C3FC77F4547EB /* MMKV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMKV.xcconfig; sourceTree = "<group>"; };
+		14E27670C8C3F48C0BD54CD50928302E /* MemoryFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryFile.h; path = iOS/MMKV/MMKV/MemoryFile.h; sourceTree = "<group>"; };
+		157760BD24E05B9BAD40E9D07140640D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		16A33CA8C49903035A3171BEDB0568CA /* MMKV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMKV-dummy.m"; sourceTree = "<group>"; };
+		18818D6CF8ED2976FC7D1422CA099BD9 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		1E6A33563A9BEE35128E05104741F872 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarFlowLayout.swift; path = KDCalendar/CalendarView/CalendarFlowLayout.swift; sourceTree = "<group>"; };
 		1F3F9ECA249DEE1301839898D569A9D7 /* Pods-ELSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELSDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		21CAD70BAC0F8AAF74270BA3DD7F7A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		25CC0EB9B2DB84790F1D047F76366DCE /* MiniCodedInputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedInputData.h; path = iOS/MMKV/MMKV/MiniCodedInputData.h; sourceTree = "<group>"; };
-		2B0CF401C230A0E7643A3D71C5CFD669 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		21CAD70BAC0F8AAF74270BA3DD7F7A1D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		260B93E687D700949459AB04339D0215 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		2971C156D6B7BF2802071A38185A34A6 /* MMKVLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MMKVLog.mm; path = iOS/MMKV/MMKV/MMKVLog.mm; sourceTree = "<group>"; };
+		29DC917ADE3B3168292DDA715ABE12BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2AE5A1E2A63DF3625BF0EFFDFF965348 /* MMKV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMKV.modulemap; sourceTree = "<group>"; };
+		2AF8178F4B7C8CE67EE2AC36937E917D /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		2CBF7F7A315B62C1CFC7B2C0D24762C8 /* MiniPBEncodeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBEncodeItem.h; path = iOS/MMKV/MMKV/MiniPBEncodeItem.h; sourceTree = "<group>"; };
 		2D07E8C9183A76C1CA338CFE2722EFB8 /* ELSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ELSDK-dummy.m"; sourceTree = "<group>"; };
-		2DFC960E382A060FCB382C45C00E1937 /* MemoryFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MemoryFile.h; path = iOS/MMKV/MMKV/MemoryFile.h; sourceTree = "<group>"; };
-		2F8FB401D290161DB0EDCF4BDBF06046 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		386FF99D52F4174E6CD172C5F7694B2A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		3A76A2C71D2F02BC51F1143464951F68 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		3A7C3445FB4C9CEAB2B5343665334C7B /* MMKV-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMKV-dummy.m"; sourceTree = "<group>"; };
-		3C82E3F139D5C1658A9BA2BCF4A202A7 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		318B837C4DD2D570C78581738D5B5C9C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		333BA73456F429EBBF333EC9D6CF4A9F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		35A6E0D28299C2AB6028D7FA7703A460 /* MiniCodedInputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MiniCodedInputData.mm; path = iOS/MMKV/MMKV/MiniCodedInputData.mm; sourceTree = "<group>"; };
+		36665D93961A11E9851286C4B0689D99 /* CalendarDayCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarDayCell.swift; path = KDCalendar/CalendarView/CalendarDayCell.swift; sourceTree = "<group>"; };
+		3878379FD78706E6CCD63812D5B8FAB8 /* MMKVMetaInfo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = MMKVMetaInfo.hpp; path = iOS/MMKV/MMKV/MMKVMetaInfo.hpp; sourceTree = "<group>"; };
+		3A82EAA3AB94D573406F022E080F2D77 /* openssl_aes_cfb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = openssl_aes_cfb.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_cfb.cpp; sourceTree = "<group>"; };
+		3E7E7A9660FCAAAC4A2437B02ACB7A73 /* CalendarView+DataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+DataSource.swift"; path = "KDCalendar/CalendarView/CalendarView+DataSource.swift"; sourceTree = "<group>"; };
+		3F9A92B3410F9A701FB1E7B6BBFB1517 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		43C6753064C49C417F1AB85B07280321 /* Pods-ELSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		468EC386D69E01C3F50DC0AFF8875506 /* AESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = iOS/MMKV/MMKV/aes/AESCrypt.h; sourceTree = "<group>"; };
-		4739B892CB5E29B7DC2E1F416A4E84F2 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		4992F76CA2B69DD6BE27A1CF96EAB5DF /* openssl_cfb128.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_cfb128.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_cfb128.cpp; sourceTree = "<group>"; };
-		4A647671FAB83B525B227D50635ADFF6 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		4B16580366B67108BE24B5AB5D5FB1AC /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		4B28D7FFBF4DC1123490B950F026DA7B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		4F426EB356E3CC738A08DC2815937823 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		47C6CFC35B3C4001836B6C981FD8E1FD /* AESCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AESCrypt.h; path = iOS/MMKV/MMKV/aes/AESCrypt.h; sourceTree = "<group>"; };
+		4BF02F3DE1EC8E78148B4A1FE9447C50 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		4D6620D4894D9E430D477257F635FAB7 /* KDCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KDCalendar-Info.plist"; sourceTree = "<group>"; };
+		4E1485C9F10973FE5390D2687DC88DE9 /* LRUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = LRUCache.hpp; path = iOS/MMKV/MMKV/LRUCache.hpp; sourceTree = "<group>"; };
+		4E19EE3B8836FD3E313911487D2076FB /* KDCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KDCalendar.xcconfig; sourceTree = "<group>"; };
+		510A0F2CA11A5EF8D609F907D939C0A3 /* MMKVHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVHandler.h; path = iOS/MMKV/MMKV/MMKVHandler.h; sourceTree = "<group>"; };
+		5131B131FE7B995EF3344942DA276987 /* CalendarView+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Style.swift"; path = "KDCalendar/CalendarView/CalendarView+Style.swift"; sourceTree = "<group>"; };
+		52F17691FF1FC6EB21881B7263A85FB8 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		552FF419EAD61F89CB26FE88BADF6EBE /* ELSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ELSDK.xcconfig; sourceTree = "<group>"; };
-		555E2EB0BE8B20BBAEFEA8B4E5BD1208 /* ELSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ELSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		59F32DB9E4624BDC244435A3F594E0C0 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		555E2EB0BE8B20BBAEFEA8B4E5BD1208 /* ELSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ELSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		564D62E62D88CEBAB7DB52F43B298835 /* openssl_md5_one.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = openssl_md5_one.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_one.cpp; sourceTree = "<group>"; };
 		5B9859F0DDA432B8FC40D61CF54F2E12 /* Pods-ELSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5CB834260ABF42AB734819C5DBD8CD32 /* MMKV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-prefix.pch"; sourceTree = "<group>"; };
-		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D98F79482634BA7486193A7C80C4546 /* MMKVLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVLog.h; path = iOS/MMKV/MMKV/MMKVLog.h; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF025ACAE46E12101BB2F3FCD7B9EE6 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		5E292CF08B9E9ABFA786EE7F3524DA9C /* ELSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELSDK-prefix.pch"; sourceTree = "<group>"; };
+		601536275953D4DDE1A760345A96C97D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		60ABE7DFB386CE6BC843AFCB65411F9F /* openssl_cfb128.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = openssl_cfb128.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_cfb128.cpp; sourceTree = "<group>"; };
 		60BB61188C730B054F64E292BC0C20B9 /* Pods-ELSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ELSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		6B965AF368734255C6CA7EEC24AB3C1A /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		65DFE3D5890E418C4932CE4FE6F63C98 /* MMKVLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVLog.h; path = iOS/MMKV/MMKV/MMKVLog.h; sourceTree = "<group>"; };
 		6E7F8E8FCC740CD30E5904078C40CE19 /* Pods-ELSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ELSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		6FFEA4DBD74FCEFA56BA0A10CD1A83F8 /* MMKV-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMKV-Info.plist"; sourceTree = "<group>"; };
+		717721A47C6917437F95C1878A4ED879 /* KDCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KDCalendar.modulemap; sourceTree = "<group>"; };
 		71DB753AC920050551AD3BB7D035317B /* Pods-ELSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		75D911052471190BEC529929F5E77BA0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		7E0585ED1A9F59DDF75FDAD973FBE942 /* MMKVLog.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKVLog.mm; path = iOS/MMKV/MMKV/MMKVLog.mm; sourceTree = "<group>"; };
-		7FE1ECBFFFDB49866CB80F57E41A0390 /* openssl_aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes.h; sourceTree = "<group>"; };
-		806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8171A69D7C7342402642D2DB8549F27D /* AESCrypt.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = AESCrypt.mm; path = iOS/MMKV/MMKV/aes/AESCrypt.mm; sourceTree = "<group>"; };
-		83A2D2EB69D4426332BAB92129A31758 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		86FE6740347B89FFCADE00445381F11F /* MiniPBUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBUtility.h; path = iOS/MMKV/MMKV/MiniPBUtility.h; sourceTree = "<group>"; };
-		8719E512B3B0A6ED6579F3FFF174F0DE /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
-		8A49CEF427EBB8E922489074B6DE7349 /* MiniCodedOutputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedOutputData.h; path = iOS/MMKV/MMKV/MiniCodedOutputData.h; sourceTree = "<group>"; };
-		8C1684FDD9EBB797E94B16F01473BB29 /* openssl_md5_dgst.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_md5_dgst.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_dgst.cpp; sourceTree = "<group>"; };
-		8E1B04CA52DFE89DEFD860C7409AD15D /* openssl_aes_cfb.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_aes_cfb.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_cfb.cpp; sourceTree = "<group>"; };
-		8F1453A97CE48151E195FA47F47CC340 /* LRUCache.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = LRUCache.hpp; path = iOS/MMKV/MMKV/LRUCache.hpp; sourceTree = "<group>"; };
+		73B18918F251011FC68B839B17EB7E74 /* openssl_aes_core.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = openssl_aes_core.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_core.cpp; sourceTree = "<group>"; };
+		74D49DA03176204A85B75E8EA742A919 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		752BB26E2AEF6219FD1E6CBC9395EA75 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD7AEDF87FDDED69C62FBC370225779 /* AESCrypt.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = AESCrypt.mm; path = iOS/MMKV/MMKV/aes/AESCrypt.mm; sourceTree = "<group>"; };
+		821D95C441AF7D4AC86689187152ED6B /* MMKV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKV.h; path = iOS/MMKV/MMKV/MMKV.h; sourceTree = "<group>"; };
+		8865FAF68E1CA0A7EEF714B376B46650 /* MMKV.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMKV.xcconfig; sourceTree = "<group>"; };
+		894DD644BB172F0EDD35841C8E222848 /* MemoryFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MemoryFile.mm; path = iOS/MMKV/MMKV/MemoryFile.mm; sourceTree = "<group>"; };
+		8BD1582C50A6A188C37F1ACCF65DF84A /* MiniCodedInputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedInputData.h; path = iOS/MMKV/MMKV/MiniCodedInputData.h; sourceTree = "<group>"; };
+		8D188CD1670229AD5F7196E528571A95 /* KDCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCalendar-umbrella.h"; sourceTree = "<group>"; };
+		8F052490078A58A9482144576ED1115F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		90B3232503852666370F84A96ECA1B96 /* MMKV.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MMKV.mm; path = iOS/MMKV/MMKV/MMKV.mm; sourceTree = "<group>"; };
+		91D8984CED5310F83F022AECE03FA30E /* KDCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KDCalendar-dummy.m"; sourceTree = "<group>"; };
 		920CD0E638DE736E6EE6779A581017B3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ELSDK/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		936CF6809861C15A44056F4608A74976 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
-		941D3B8E3F17AF979FC4B8BBD5D42105 /* openssl_aes_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_locl.h; sourceTree = "<group>"; };
 		944BBFCCA5C9B7C7E2E4A6048040A865 /* Pods-ELSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ELSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		94DCBDB15280BEA67F6B3EED68D5E1C7 /* ELSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ELSDK.framework; path = ELSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DCBDB15280BEA67F6B3EED68D5E1C7 /* ELSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ELSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9671EA9196D5D21DC9C5FBCBD3403F88 /* MiniCodedOutputData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniCodedOutputData.h; path = iOS/MMKV/MMKV/MiniCodedOutputData.h; sourceTree = "<group>"; };
 		980985EC77457022DB1B0AFCCBFD2E09 /* Pods-ELSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9BC34DDF21BA0FB08E2174E2DB90303C /* MiniPBCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBCoder.h; path = iOS/MMKV/MMKV/MiniPBCoder.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A432A0B5517196A2DE5E7B83A6D18DD3 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		A487788B7DEB0605B6CA712788A7A582 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		A7E11565AFC099650DF513C730C76798 /* openssl_md5_one.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_md5_one.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_one.cpp; sourceTree = "<group>"; };
-		AB350F9BA538B9487EA5E2F144D8585A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		AD03419A82E8258E3D00F71A8F7AFA8F /* ScopedLock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; name = ScopedLock.hpp; path = iOS/MMKV/MMKV/ScopedLock.hpp; sourceTree = "<group>"; };
+		9A5AB365A1F9627E97DB79F5F631538E /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E23D3E7FEE6464027140867A2ED8186 /* MiniCodedOutputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MiniCodedOutputData.mm; path = iOS/MMKV/MMKV/MiniCodedOutputData.mm; sourceTree = "<group>"; };
+		9E33457B11C80DFA529B6FF2E96C15E5 /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A248B107C3D8B39E8FED606C33BB65F9 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		A439F24E22DDA3D447225D9382CAB089 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A43FB2FC65C9912CBAF0679BF6449A62 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A63094FC6A3E83F7E9C3540803E9A478 /* openssl_md32_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md32_common.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md32_common.h; sourceTree = "<group>"; };
+		ABC85F8B239DE80500316FAE /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		ABC85F8C239DE80500316FAE /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		ABC85F8E239DE80500316FAE /* libFlurry_8.5.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_8.5.0.a; sourceTree = "<group>"; };
+		ABC85F8F239DE80500316FAE /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		ABC85F90239DE80500316FAE /* FlurryConsent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryConsent.h; sourceTree = "<group>"; };
+		ABC85F91239DE80500316FAE /* FlurryEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryEmpty.m; sourceTree = "<group>"; };
+		ABC85F92239DE80500316FAE /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryWatchEmpty.m; sourceTree = "<group>"; };
+		ABC85F93239DE80500316FAE /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		ABC85F94239DE80500316FAE /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurrySessionBuilder.h; sourceTree = "<group>"; };
+		ABC85F95239DE80600316FAE /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ABC85F96239DE80600316FAE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		ABC85F97239DE80600316FAE /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		ACFB7304D2AD2F5BC971EC8D875AFAE0 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		AD52BCFE023DE64095E042CB7E3D8408 /* Pods-ELSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AE04FE08C75C221D09B152E6DEEE51A0 /* MiniCodedOutputData.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniCodedOutputData.mm; path = iOS/MMKV/MMKV/MiniCodedOutputData.mm; sourceTree = "<group>"; };
-		B6583651790EB29CA44D26341ADAF5AC /* openssl_md32_common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md32_common.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md32_common.h; sourceTree = "<group>"; };
-		B749E1E808E96BA83FEE9454FC4612D9 /* openssl_aes_core.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = openssl_aes_core.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_core.cpp; sourceTree = "<group>"; };
-		B832728E87D14BE511E7EAA985E351A9 /* openssl_modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_modes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_modes.h; sourceTree = "<group>"; };
-		B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMKV.framework; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC2AF5427978F4FE3A57BBC0E2970819 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C1F5C21F8A4AF080EB6FA89A253F3BFE /* Pods_ELSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ELSDK_Example.framework; path = "Pods-ELSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6D26D94A4D0E1C9F13629B68322E9BF /* openssl_opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_opensslconf.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_opensslconf.h; sourceTree = "<group>"; };
-		C865A0202F4A127FE23A865BEB2008FF /* MiniPBUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniPBUtility.mm; path = iOS/MMKV/MMKV/MiniPBUtility.mm; sourceTree = "<group>"; };
+		AE107049D8CA199F5C7767B1071DF9AA /* CalendarView+Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Delegate.swift"; path = "KDCalendar/CalendarView/CalendarView+Delegate.swift"; sourceTree = "<group>"; };
+		AF5F4DEEB917BF3FBDA8F969ECA42D87 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		AFCA2376AD7CC6BCE05506C4598D6BB0 /* MMKV-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-prefix.pch"; sourceTree = "<group>"; };
+		B67C7459EAE578E5827546772AE55758 /* openssl_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5.h; sourceTree = "<group>"; };
+		B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMKV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4102D8C4769186771FED709CBE2611 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		BA71B65F82A5C91B5E34EAAF762D0C7C /* MiniPBCoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MiniPBCoder.mm; path = iOS/MMKV/MMKV/MiniPBCoder.mm; sourceTree = "<group>"; };
+		BB0389264FEB86EADCE037A5B5F8C504 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		C0FAF798B177915152A4C176FE26EA54 /* MiniPBUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBUtility.h; path = iOS/MMKV/MMKV/MiniPBUtility.h; sourceTree = "<group>"; };
+		C1F5C21F8A4AF080EB6FA89A253F3BFE /* Pods_ELSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C434853443561162573B5CA7DED8083C /* openssl_md5_dgst.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = openssl_md5_dgst.cpp; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5_dgst.cpp; sourceTree = "<group>"; };
+		C4F52E2F2767BA25D495CABA3429EAC3 /* openssl_aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes.h; sourceTree = "<group>"; };
+		C6BF8C0F1EBA97689345095101C80769 /* openssl_aes_locl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_aes_locl.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_aes_locl.h; sourceTree = "<group>"; };
+		C76A219F796E80A403E36B85E934D95A /* openssl_modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_modes.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_modes.h; sourceTree = "<group>"; };
 		C8749D5ECAF84CFFF749BFB41885E9B1 /* ELSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ELSDK-Info.plist"; sourceTree = "<group>"; };
-		CA3557EA6F0227B759B7AD77C02C53E0 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		CB65CC6732BEE9E7488D5D0C73A064BB /* MiniPBCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiniPBCoder.h; path = iOS/MMKV/MMKV/MiniPBCoder.h; sourceTree = "<group>"; };
 		CC68DC7F2EC84AE858FC484865A50AAC /* Pods-ELSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ELSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D48F45CF11A557C9AEF5EC1706D55EE8 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		DA49FAAE5ECD5A2A9DC12A4A9459073F /* ScopedLock.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; name = ScopedLock.hpp; path = iOS/MMKV/MMKV/ScopedLock.hpp; sourceTree = "<group>"; };
+		DCB05533F637692E33D46D390749446D /* MMKV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-umbrella.h"; sourceTree = "<group>"; };
 		DCFA2C874737BFA1807F0B37C3E5FC8E /* Pods-ELSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		DDB08DA9D5F6FC68CD5B25100A218892 /* MMKV-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMKV-umbrella.h"; sourceTree = "<group>"; };
-		DF456828575BFFAC705633DE0BCA2F1B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		DF4942A15BE11E59A7D4E6A8C603AF1E /* CalendarHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarHeaderView.swift; path = KDCalendar/CalendarView/CalendarHeaderView.swift; sourceTree = "<group>"; };
 		E0461B48C66A0CEB3DD28157D35873AE /* Pods-ELSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ELSDK_Tests.modulemap"; sourceTree = "<group>"; };
-		E0BC9ECE563DB74AB9E4444138EEF370 /* Pods_ELSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ELSDK_Tests.framework; path = "Pods-ELSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E14C60DA861706ABD78782472EC982DB /* MemoryFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MemoryFile.mm; path = iOS/MMKV/MMKV/MemoryFile.mm; sourceTree = "<group>"; };
+		E0BC9ECE563DB74AB9E4444138EEF370 /* Pods_ELSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4878F4C56D0E5FA79C63C17C32BC098 /* Pods-ELSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ELSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		E4BA77A2E83A10AC59C109BC873170FE /* MMKVHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMKVHandler.h; path = iOS/MMKV/MMKV/MMKVHandler.h; sourceTree = "<group>"; };
-		E770931D249CD0E4196538876F46A929 /* MMKV.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMKV.modulemap; sourceTree = "<group>"; };
+		E744B7EA81EB6C6E93B5F6B3DE76E956 /* KDCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7541B73ABD8FACC5856DC8BF9ABCD51 /* KDCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KDCalendar-prefix.pch"; sourceTree = "<group>"; };
+		E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E9721E741EC81778A62E45F5B54E1153 /* CalendarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarView.swift; path = KDCalendar/CalendarView/CalendarView.swift; sourceTree = "<group>"; };
 		EC758CAA12D4755118EB4509F61CEE33 /* Pods-ELSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ELSDK_Example.modulemap"; sourceTree = "<group>"; };
-		EDDC29A60800AD2D3CED3FE4C03BDCC2 /* openssl_md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = openssl_md5.h; path = iOS/MMKV/MMKV/aes/openssl/openssl_md5.h; sourceTree = "<group>"; };
-		EEE58FF649E1CAB991990BBF0D347712 /* MiniPBCoder.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MiniPBCoder.mm; path = iOS/MMKV/MMKV/MiniPBCoder.mm; sourceTree = "<group>"; };
-		F2522DBCDC36F58802DE1D7EDB9ADAD5 /* MMKV.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = MMKV.mm; path = iOS/MMKV/MMKV/MMKV.mm; sourceTree = "<group>"; };
-		F567716B89C2CC05F0D1E7FE88070EFE /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		ECF8993EEBC30FDC82332105558ED28C /* EventsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventsManager.swift; path = KDCalendar/CalendarView/EventsManager.swift; sourceTree = "<group>"; };
+		EE6B212F5DCD0CDC65AEA44C2D73594D /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		F00462BBF92A2DD3EBFC690DAD47DAF5 /* CalendarView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CalendarView+Extensions.swift"; path = "KDCalendar/CalendarView/CalendarView+Extensions.swift"; sourceTree = "<group>"; };
+		F2825F738788F2F0B7C0E0E89A82552B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
 		F9ABE97B030355E13C830F0D3E4BF822 /* Pods-ELSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ELSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBF0F1AB1733C116F3929F45CF4658E3 /* MiniPBUtility.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = MiniPBUtility.mm; path = iOS/MMKV/MMKV/MiniPBUtility.mm; sourceTree = "<group>"; };
 		FD2B856B116105880F842B0E4FBF3B6D /* ELSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ELSDK-umbrella.h"; sourceTree = "<group>"; };
-		FE014359C1325A5B54597B712F159FC7 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		01BDE3E225048E803B829D3BB1A901BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74248A30C7312BBF2DC3706A9989E4E4 /* Alamofire.framework in Frameworks */,
+				ABC85FA1239DE80600316FAE /* FBSDKCoreKit.framework in Frameworks */,
+				2A0F8FE1D7494CB00A35CC59B902E73A /* Foundation.framework in Frameworks */,
+				ABC85F9A239DE80600316FAE /* libFlurry_8.5.0.a in Frameworks */,
+				55FADBBEAC88B7A954A1CA6CEA4DD093 /* KDCalendar.framework in Frameworks */,
+				C5D6897BCF512BFCB3F67B9E7C2E2FF1 /* MMKV.framework in Frameworks */,
+				ABC85FA2239DE80600316FAE /* Bolts.framework in Frameworks */,
+				ABC85FA3239DE80600316FAE /* AppsFlyerLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		090C1D63463ACF622287EFF9D5C9392D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,31 +321,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2619EEE13A8764CF83F194BDACB1B3DD /* Frameworks */ = {
+		0C707D29FB379CCE9FD89EE21460E892 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6451B067CE2F4CBDCE7D560217E3E3 /* Alamofire.framework in Frameworks */,
-				B301855CF3459FE0A574D74512A125D2 /* Foundation.framework in Frameworks */,
-				461C97D96AF6FFF0F73A9E5DF49AE6DA /* MMKV.framework in Frameworks */,
+				BE96BB07F008B16ECEB169822D155142 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4957A13725DDB76EC721011635AE183B /* Frameworks */ = {
+		2A5E6DF2B5D0AB2ABD031547F08453C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35BBA1441CD6632A8ADB7CA21B270045 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B282F22137A2C9E55E197918296C8783 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DAC370B598EF443F7A064CBA7244C82 /* CoreFoundation.framework in Frameworks */,
-				EBC1F129B5EF2DCF764D8C3832D0C409 /* Foundation.framework in Frameworks */,
-				4CDCA43BB32D3761A2F888759CFD6FD3 /* UIKit.framework in Frameworks */,
+				9E42285EB548FCA4D437B627D8C20D09 /* CoreFoundation.framework in Frameworks */,
+				31A24CEE37E9EC0F91110ACDC51B9840 /* Foundation.framework in Frameworks */,
+				CAAD0F24491F13CE98734A05183BE63F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,113 +347,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E00DEB049909B354AC993D1017B85438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43FC91AF4A88DCAAFCC527BC7D77AEB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DA7F0456916BBA7461F48C663E2110 /* iOS */ = {
+		07B270FA3A6615B9485688A78238ADB7 /* KDCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				0AA1B38019435B770764CF4558BBB1C4 /* CoreFoundation.framework */,
-				806FAC3E1CF2A7E08DA2C82186F8E94F /* Foundation.framework */,
-				BC2AF5427978F4FE3A57BBC0E2970819 /* UIKit.framework */,
+				500FEFEC6104EA1A54968F5D682BB832 /* EventManager */,
+				E35AE6C169404ECC1F9ED5B002BC8C5F /* Support Files */,
 			);
-			name = iOS;
+			path = KDCalendar;
 			sourceTree = "<group>";
 		};
-		08DA47578A5F424EA18743C6CD9A3E3E /* MMKV */ = {
+		200D6B62C3CB592516FB8A7479AE33F9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				468EC386D69E01C3F50DC0AFF8875506 /* AESCrypt.h */,
-				8171A69D7C7342402642D2DB8549F27D /* AESCrypt.mm */,
-				8F1453A97CE48151E195FA47F47CC340 /* LRUCache.hpp */,
-				2DFC960E382A060FCB382C45C00E1937 /* MemoryFile.h */,
-				E14C60DA861706ABD78782472EC982DB /* MemoryFile.mm */,
-				25CC0EB9B2DB84790F1D047F76366DCE /* MiniCodedInputData.h */,
-				043C43947DBE8CDB1D803D7F3B7AF0D5 /* MiniCodedInputData.mm */,
-				8A49CEF427EBB8E922489074B6DE7349 /* MiniCodedOutputData.h */,
-				AE04FE08C75C221D09B152E6DEEE51A0 /* MiniCodedOutputData.mm */,
-				9BC34DDF21BA0FB08E2174E2DB90303C /* MiniPBCoder.h */,
-				EEE58FF649E1CAB991990BBF0D347712 /* MiniPBCoder.mm */,
-				15ADEABD1B8C0DB537DF6FF9959D73A6 /* MiniPBEncodeItem.h */,
-				86FE6740347B89FFCADE00445381F11F /* MiniPBUtility.h */,
-				C865A0202F4A127FE23A865BEB2008FF /* MiniPBUtility.mm */,
-				16098012C994B41737002C4E6485A3F4 /* MMKV.h */,
-				F2522DBCDC36F58802DE1D7EDB9ADAD5 /* MMKV.mm */,
-				E4BA77A2E83A10AC59C109BC873170FE /* MMKVHandler.h */,
-				5D98F79482634BA7486193A7C80C4546 /* MMKVLog.h */,
-				7E0585ED1A9F59DDF75FDAD973FBE942 /* MMKVLog.mm */,
-				05EFBEF528CBD529F06DC0A29E9E2FBB /* MMKVMetaInfo.hpp */,
-				7FE1ECBFFFDB49866CB80F57E41A0390 /* openssl_aes.h */,
-				8E1B04CA52DFE89DEFD860C7409AD15D /* openssl_aes_cfb.cpp */,
-				B749E1E808E96BA83FEE9454FC4612D9 /* openssl_aes_core.cpp */,
-				941D3B8E3F17AF979FC4B8BBD5D42105 /* openssl_aes_locl.h */,
-				4992F76CA2B69DD6BE27A1CF96EAB5DF /* openssl_cfb128.cpp */,
-				B6583651790EB29CA44D26341ADAF5AC /* openssl_md32_common.h */,
-				EDDC29A60800AD2D3CED3FE4C03BDCC2 /* openssl_md5.h */,
-				8C1684FDD9EBB797E94B16F01473BB29 /* openssl_md5_dgst.cpp */,
-				097633C3320CF1226FD7E0DF268E00E9 /* openssl_md5_locl.h */,
-				A7E11565AFC099650DF513C730C76798 /* openssl_md5_one.cpp */,
-				B832728E87D14BE511E7EAA985E351A9 /* openssl_modes.h */,
-				C6D26D94A4D0E1C9F13629B68322E9BF /* openssl_opensslconf.h */,
-				AD03419A82E8258E3D00F71A8F7AFA8F /* ScopedLock.hpp */,
-				34FA0981DDF18A9302D8B67504A5F944 /* Support Files */,
-			);
-			name = MMKV;
-			path = MMKV;
-			sourceTree = "<group>";
-		};
-		34FA0981DDF18A9302D8B67504A5F944 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E770931D249CD0E4196538876F46A929 /* MMKV.modulemap */,
-				1E814A4AA65FB746B68C3FC77F4547EB /* MMKV.xcconfig */,
-				3A7C3445FB4C9CEAB2B5343665334C7B /* MMKV-dummy.m */,
-				179375ADF6CEC16FE26ED859C5802018 /* MMKV-Info.plist */,
-				5CB834260ABF42AB734819C5DBD8CD32 /* MMKV-prefix.pch */,
-				DDB08DA9D5F6FC68CD5B25100A218892 /* MMKV-umbrella.h */,
+				2AE5A1E2A63DF3625BF0EFFDFF965348 /* MMKV.modulemap */,
+				8865FAF68E1CA0A7EEF714B376B46650 /* MMKV.xcconfig */,
+				16A33CA8C49903035A3171BEDB0568CA /* MMKV-dummy.m */,
+				6FFEA4DBD74FCEFA56BA0A10CD1A83F8 /* MMKV-Info.plist */,
+				AFCA2376AD7CC6BCE05506C4598D6BB0 /* MMKV-prefix.pch */,
+				DCB05533F637692E33D46D390749446D /* MMKV-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MMKV";
 			sourceTree = "<group>";
 		};
-		4285ABC52F50498C54743E7C19837A53 /* Pods */ = {
+		500FEFEC6104EA1A54968F5D682BB832 /* EventManager */ = {
 			isa = PBXGroup;
 			children = (
-				58D4A3EFBD16EA4147F343307F42254C /* Alamofire */,
-				08DA47578A5F424EA18743C6CD9A3E3E /* MMKV */,
+				36665D93961A11E9851286C4B0689D99 /* CalendarDayCell.swift */,
+				1E6A33563A9BEE35128E05104741F872 /* CalendarFlowLayout.swift */,
+				DF4942A15BE11E59A7D4E6A8C603AF1E /* CalendarHeaderView.swift */,
+				E9721E741EC81778A62E45F5B54E1153 /* CalendarView.swift */,
+				3E7E7A9660FCAAAC4A2437B02ACB7A73 /* CalendarView+DataSource.swift */,
+				AE107049D8CA199F5C7767B1071DF9AA /* CalendarView+Delegate.swift */,
+				F00462BBF92A2DD3EBFC690DAD47DAF5 /* CalendarView+Extensions.swift */,
+				5131B131FE7B995EF3344942DA276987 /* CalendarView+Style.swift */,
+				ECF8993EEBC30FDC82332105558ED28C /* EventsManager.swift */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		58D4A3EFBD16EA4147F343307F42254C /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				4F426EB356E3CC738A08DC2815937823 /* AFError.swift */,
-				A432A0B5517196A2DE5E7B83A6D18DD3 /* Alamofire.swift */,
-				4B16580366B67108BE24B5AB5D5FB1AC /* DispatchQueue+Alamofire.swift */,
-				AB350F9BA538B9487EA5E2F144D8585A /* MultipartFormData.swift */,
-				A487788B7DEB0605B6CA712788A7A582 /* NetworkReachabilityManager.swift */,
-				2F8FB401D290161DB0EDCF4BDBF06046 /* Notifications.swift */,
-				83A2D2EB69D4426332BAB92129A31758 /* ParameterEncoding.swift */,
-				3A76A2C71D2F02BC51F1143464951F68 /* Request.swift */,
-				DF456828575BFFAC705633DE0BCA2F1B /* Response.swift */,
-				4A647671FAB83B525B227D50635ADFF6 /* ResponseSerialization.swift */,
-				59F32DB9E4624BDC244435A3F594E0C0 /* Result.swift */,
-				8719E512B3B0A6ED6579F3FFF174F0DE /* ServerTrustPolicy.swift */,
-				75D911052471190BEC529929F5E77BA0 /* SessionDelegate.swift */,
-				CA3557EA6F0227B759B7AD77C02C53E0 /* SessionManager.swift */,
-				F567716B89C2CC05F0D1E7FE88070EFE /* TaskDelegate.swift */,
-				936CF6809861C15A44056F4608A74976 /* Timeline.swift */,
-				386FF99D52F4174E6CD172C5F7694B2A /* Validation.swift */,
-				6A457D4466C8AA1187664573FD0C4963 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
+			name = EventManager;
 			sourceTree = "<group>";
 		};
 		61DFB9C28072984E6015966124B88A12 /* ELSDK */ = {
 			isa = PBXGroup;
 			children = (
+				ABC85F89239DE80500316FAE /* Libraries */,
 				920CD0E638DE736E6EE6779A581017B3 /* ReplaceMe.swift */,
 				00FA905851BE7BCDA229D2E4891606C6 /* Test.swift */,
 				F91029AADAE3A8FEBEB1069C62887661 /* Pod */,
@@ -396,20 +416,6 @@
 				61DFB9C28072984E6015966124B88A12 /* ELSDK */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6A457D4466C8AA1187664573FD0C4963 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4739B892CB5E29B7DC2E1F416A4E84F2 /* Alamofire.modulemap */,
-				FE014359C1325A5B54597B712F159FC7 /* Alamofire.xcconfig */,
-				4B28D7FFBF4DC1123490B950F026DA7B /* Alamofire-dummy.m */,
-				3C82E3F139D5C1658A9BA2BCF4A202A7 /* Alamofire-Info.plist */,
-				2B0CF401C230A0E7643A3D71C5CFD669 /* Alamofire-prefix.pch */,
-				6B965AF368734255C6CA7EEC24AB3C1A /* Alamofire-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		798813A861F624EBC9FFA1F0F1B2FDF0 /* Targets Support Files */ = {
@@ -438,26 +444,74 @@
 			path = "Target Support Files/Pods-ELSDK_Example";
 			sourceTree = "<group>";
 		};
-		9B2612BF63DD687922C4F3C28A242A39 /* Frameworks */ = {
+		9ECAB9576CF08AFB76E99B1EF2F972E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E36BC399E0C0F359F834FDC3AEE8C92 /* Alamofire.framework */,
-				1D68DC14EFF945919DC620F8331DD68C /* MMKV.framework */,
-				02DA7F0456916BBA7461F48C663E2110 /* iOS */,
+				E597702EA18605D9C66A0E900272E3D7 /* Alamofire */,
+				07B270FA3A6615B9485688A78238ADB7 /* KDCalendar */,
+				E0341BD811293EBDEBF0CC862FC3505E /* MMKV */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		B75B716E9516B14015425BAB89A9C2A4 /* Products */ = {
+		ABC85F89239DE80500316FAE /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
-				94DCBDB15280BEA67F6B3EED68D5E1C7 /* ELSDK.framework */,
-				B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */,
-				C1F5C21F8A4AF080EB6FA89A253F3BFE /* Pods_ELSDK_Example.framework */,
-				E0BC9ECE563DB74AB9E4444138EEF370 /* Pods_ELSDK_Tests.framework */,
+				ABC85F8A239DE80500316FAE /* Toast */,
+				ABC85F8D239DE80500316FAE /* Flurry */,
+				ABC85F95239DE80600316FAE /* FBSDKCoreKit.framework */,
+				ABC85F96239DE80600316FAE /* Bolts.framework */,
+				ABC85F97239DE80600316FAE /* AppsFlyerLib.framework */,
 			);
-			name = Products;
+			name = Libraries;
+			path = ELSDK/Classes/Libraries;
+			sourceTree = "<group>";
+		};
+		ABC85F8A239DE80500316FAE /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				ABC85F8B239DE80500316FAE /* UIView+Toast.h */,
+				ABC85F8C239DE80500316FAE /* UIView+Toast.m */,
+			);
+			path = Toast;
+			sourceTree = "<group>";
+		};
+		ABC85F8D239DE80500316FAE /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				ABC85F8E239DE80500316FAE /* libFlurry_8.5.0.a */,
+				ABC85F8F239DE80500316FAE /* Flurry.h */,
+				ABC85F90239DE80500316FAE /* FlurryConsent.h */,
+				ABC85F91239DE80500316FAE /* FlurryEmpty.m */,
+				ABC85F92239DE80500316FAE /* FlurryWatchEmpty.m */,
+				ABC85F93239DE80500316FAE /* FlurryWatch.h */,
+				ABC85F94239DE80500316FAE /* FlurrySessionBuilder.h */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		B530272EA81B51F41423EE6D25DE9CE1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A248B107C3D8B39E8FED606C33BB65F9 /* Alamofire.modulemap */,
+				BB0389264FEB86EADCE037A5B5F8C504 /* Alamofire.xcconfig */,
+				BA4102D8C4769186771FED709CBE2611 /* Alamofire-dummy.m */,
+				ACFB7304D2AD2F5BC971EC8D875AFAE0 /* Alamofire-Info.plist */,
+				13241C265049A9CCFED80812EAFC0451 /* Alamofire-prefix.pch */,
+				EE6B212F5DCD0CDC65AEA44C2D73594D /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		C7959910BB68877D3FAA44B4AE73B368 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				752BB26E2AEF6219FD1E6CBC9395EA75 /* CoreFoundation.framework */,
+				E80390EA1301F18628634FAE0CEEB6A6 /* Foundation.framework */,
+				29DC917ADE3B3168292DDA715ABE12BA /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -465,9 +519,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				67CF5D7C9A1F9014F8B4F0591941BC15 /* Development Pods */,
-				9B2612BF63DD687922C4F3C28A242A39 /* Frameworks */,
-				4285ABC52F50498C54743E7C19837A53 /* Pods */,
-				B75B716E9516B14015425BAB89A9C2A4 /* Products */,
+				E4C806E58A083FEFCB9023827AD77499 /* Frameworks */,
+				9ECAB9576CF08AFB76E99B1EF2F972E7 /* Pods */,
+				D81F2F4C6C0855F034BE69037E34BF13 /* Products */,
 				798813A861F624EBC9FFA1F0F1B2FDF0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -502,6 +556,110 @@
 			path = "Target Support Files/Pods-ELSDK_Tests";
 			sourceTree = "<group>";
 		};
+		D81F2F4C6C0855F034BE69037E34BF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				94DCBDB15280BEA67F6B3EED68D5E1C7 /* ELSDK.framework */,
+				75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */,
+				B88A54159B245E727A6D16DEFE105A09 /* MMKV.framework */,
+				C1F5C21F8A4AF080EB6FA89A253F3BFE /* Pods_ELSDK_Example.framework */,
+				E0BC9ECE563DB74AB9E4444138EEF370 /* Pods_ELSDK_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0341BD811293EBDEBF0CC862FC3505E /* MMKV */ = {
+			isa = PBXGroup;
+			children = (
+				47C6CFC35B3C4001836B6C981FD8E1FD /* AESCrypt.h */,
+				7BD7AEDF87FDDED69C62FBC370225779 /* AESCrypt.mm */,
+				4E1485C9F10973FE5390D2687DC88DE9 /* LRUCache.hpp */,
+				14E27670C8C3F48C0BD54CD50928302E /* MemoryFile.h */,
+				894DD644BB172F0EDD35841C8E222848 /* MemoryFile.mm */,
+				8BD1582C50A6A188C37F1ACCF65DF84A /* MiniCodedInputData.h */,
+				35A6E0D28299C2AB6028D7FA7703A460 /* MiniCodedInputData.mm */,
+				9671EA9196D5D21DC9C5FBCBD3403F88 /* MiniCodedOutputData.h */,
+				9E23D3E7FEE6464027140867A2ED8186 /* MiniCodedOutputData.mm */,
+				CB65CC6732BEE9E7488D5D0C73A064BB /* MiniPBCoder.h */,
+				BA71B65F82A5C91B5E34EAAF762D0C7C /* MiniPBCoder.mm */,
+				2CBF7F7A315B62C1CFC7B2C0D24762C8 /* MiniPBEncodeItem.h */,
+				C0FAF798B177915152A4C176FE26EA54 /* MiniPBUtility.h */,
+				FBF0F1AB1733C116F3929F45CF4658E3 /* MiniPBUtility.mm */,
+				821D95C441AF7D4AC86689187152ED6B /* MMKV.h */,
+				90B3232503852666370F84A96ECA1B96 /* MMKV.mm */,
+				510A0F2CA11A5EF8D609F907D939C0A3 /* MMKVHandler.h */,
+				65DFE3D5890E418C4932CE4FE6F63C98 /* MMKVLog.h */,
+				2971C156D6B7BF2802071A38185A34A6 /* MMKVLog.mm */,
+				3878379FD78706E6CCD63812D5B8FAB8 /* MMKVMetaInfo.hpp */,
+				C4F52E2F2767BA25D495CABA3429EAC3 /* openssl_aes.h */,
+				3A82EAA3AB94D573406F022E080F2D77 /* openssl_aes_cfb.cpp */,
+				73B18918F251011FC68B839B17EB7E74 /* openssl_aes_core.cpp */,
+				C6BF8C0F1EBA97689345095101C80769 /* openssl_aes_locl.h */,
+				60ABE7DFB386CE6BC843AFCB65411F9F /* openssl_cfb128.cpp */,
+				A63094FC6A3E83F7E9C3540803E9A478 /* openssl_md32_common.h */,
+				B67C7459EAE578E5827546772AE55758 /* openssl_md5.h */,
+				C434853443561162573B5CA7DED8083C /* openssl_md5_dgst.cpp */,
+				047FE36EA4FEE69D0DC1B40F274ED95C /* openssl_md5_locl.h */,
+				564D62E62D88CEBAB7DB52F43B298835 /* openssl_md5_one.cpp */,
+				C76A219F796E80A403E36B85E934D95A /* openssl_modes.h */,
+				065AFB8E6CF869A558193853B6202212 /* openssl_opensslconf.h */,
+				DA49FAAE5ECD5A2A9DC12A4A9459073F /* ScopedLock.hpp */,
+				200D6B62C3CB592516FB8A7479AE33F9 /* Support Files */,
+			);
+			path = MMKV;
+			sourceTree = "<group>";
+		};
+		E35AE6C169404ECC1F9ED5B002BC8C5F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				717721A47C6917437F95C1878A4ED879 /* KDCalendar.modulemap */,
+				4E19EE3B8836FD3E313911487D2076FB /* KDCalendar.xcconfig */,
+				91D8984CED5310F83F022AECE03FA30E /* KDCalendar-dummy.m */,
+				4D6620D4894D9E430D477257F635FAB7 /* KDCalendar-Info.plist */,
+				E7541B73ABD8FACC5856DC8BF9ABCD51 /* KDCalendar-prefix.pch */,
+				8D188CD1670229AD5F7196E528571A95 /* KDCalendar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KDCalendar";
+			sourceTree = "<group>";
+		};
+		E4C806E58A083FEFCB9023827AD77499 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318B837C4DD2D570C78581738D5B5C9C /* Alamofire.framework */,
+				E744B7EA81EB6C6E93B5F6B3DE76E956 /* KDCalendar.framework */,
+				9E33457B11C80DFA529B6FF2E96C15E5 /* MMKV.framework */,
+				C7959910BB68877D3FAA44B4AE73B368 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E597702EA18605D9C66A0E900272E3D7 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8178F4B7C8CE67EE2AC36937E917D /* AFError.swift */,
+				A43FB2FC65C9912CBAF0679BF6449A62 /* Alamofire.swift */,
+				52F17691FF1FC6EB21881B7263A85FB8 /* DispatchQueue+Alamofire.swift */,
+				A439F24E22DDA3D447225D9382CAB089 /* MultipartFormData.swift */,
+				3F9A92B3410F9A701FB1E7B6BBFB1517 /* NetworkReachabilityManager.swift */,
+				AF5F4DEEB917BF3FBDA8F969ECA42D87 /* Notifications.swift */,
+				D48F45CF11A557C9AEF5EC1706D55EE8 /* ParameterEncoding.swift */,
+				333BA73456F429EBBF333EC9D6CF4A9F /* Request.swift */,
+				F2825F738788F2F0B7C0E0E89A82552B /* Response.swift */,
+				4BF02F3DE1EC8E78148B4A1FE9447C50 /* ResponseSerialization.swift */,
+				260B93E687D700949459AB04339D0215 /* Result.swift */,
+				5DF025ACAE46E12101BB2F3FCD7B9EE6 /* ServerTrustPolicy.swift */,
+				74D49DA03176204A85B75E8EA742A919 /* SessionDelegate.swift */,
+				9A5AB365A1F9627E97DB79F5F631538E /* SessionManager.swift */,
+				18818D6CF8ED2976FC7D1422CA099BD9 /* TaskDelegate.swift */,
+				8F052490078A58A9482144576ED1115F /* Timeline.swift */,
+				601536275953D4DDE1A760345A96C97D /* Validation.swift */,
+				B530272EA81B51F41423EE6D25DE9CE1 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
 		F91029AADAE3A8FEBEB1069C62887661 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -515,6 +673,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		17045BC8EF575A4D068CFCE010EF08DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C9985B43155AB7195C77A4E6E07D05 /* Pods-ELSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2582784E4FA6A1AC5D23FC53AC3F6EE2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -523,47 +689,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97BD8A150F584E430500EBE07398B634 /* Headers */ = {
+		272588158FCC1D32D0F47F349FEEFA71 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FCA6EB2EF02583BFA7FA6205507DB58 /* AESCrypt.h in Headers */,
-				972CAF0E9E773C56ADCD056FB276FE44 /* LRUCache.hpp in Headers */,
-				B4D454D4437908015A6D455CB5F95395 /* MemoryFile.h in Headers */,
-				1B3A49BB70FBB47EA1FADE0AE75C12DE /* MiniCodedInputData.h in Headers */,
-				291872824FA91FF7CF46AD55AB55917D /* MiniCodedOutputData.h in Headers */,
-				5087C716C48A35092D77CA23C6E67472 /* MiniPBCoder.h in Headers */,
-				CF6FE63D83B7FD2CDA5031656BA301E6 /* MiniPBEncodeItem.h in Headers */,
-				3E8DA43BEFFF524155400F21BBA4424D /* MiniPBUtility.h in Headers */,
-				15D8D56DF302F781046B791ECF8A01B1 /* MMKV-umbrella.h in Headers */,
-				178310193D61EF73E38B65284C615A5F /* MMKV.h in Headers */,
-				1315DED02938FD55013F7C30E3F7469F /* MMKVHandler.h in Headers */,
-				A428584A809D727E73478D97BD6F0CAC /* MMKVLog.h in Headers */,
-				9BD09AA888FBFEEAD59902E985D5FB8F /* MMKVMetaInfo.hpp in Headers */,
-				7BA15037C856A97E5EBD11FE77243675 /* openssl_aes.h in Headers */,
-				5B47E1DAD53434BAE56C9AB1A81D019D /* openssl_aes_locl.h in Headers */,
-				49A6C6903D13F4642E34C7977CDF0144 /* openssl_md32_common.h in Headers */,
-				E7CD31A335B39F7A957B371D26E583DB /* openssl_md5.h in Headers */,
-				C918CD3493AA03438E09DEFDCE446E18 /* openssl_md5_locl.h in Headers */,
-				B7E2BE3C9CCF3C97D1E6985929D9266F /* openssl_modes.h in Headers */,
-				4F747B5179CA3BDDEC9E8E6C013061B8 /* openssl_opensslconf.h in Headers */,
-				081E2CF4B039A03CB2596B7A3B89DA6E /* ScopedLock.hpp in Headers */,
+				ABC85F9B239DE80600316FAE /* Flurry.h in Headers */,
+				3ED0F96E575C0830018B18DAAB5C7920 /* ELSDK-umbrella.h in Headers */,
+				ABC85F98239DE80600316FAE /* UIView+Toast.h in Headers */,
+				ABC85F9F239DE80600316FAE /* FlurryWatch.h in Headers */,
+				ABC85F9C239DE80600316FAE /* FlurryConsent.h in Headers */,
+				ABC85FA0239DE80600316FAE /* FlurrySessionBuilder.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C912E1673C8A1E265AFF9C476246993 /* Headers */ = {
+		412F97B93A2F3B5E6771AEC12502F8B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F517CA0F04EB587D914A7F90851831 /* ELSDK-umbrella.h in Headers */,
+				08AA42422C71B8F2D4A25862BCC6EFDB /* AESCrypt.h in Headers */,
+				6A991A5F391D7FE4B96C1138386211C8 /* LRUCache.hpp in Headers */,
+				78FA82016357D0AD7D549887E87F2BD8 /* MemoryFile.h in Headers */,
+				87E38B82972BA6E08669B3485EFF5A95 /* MiniCodedInputData.h in Headers */,
+				2F1B281C1847D50167AD6A221A6210CA /* MiniCodedOutputData.h in Headers */,
+				F5D31984018185D4CF2917D669A28019 /* MiniPBCoder.h in Headers */,
+				397FD36318DD7472DFAA8F8B7DB80601 /* MiniPBEncodeItem.h in Headers */,
+				B5116967AC490A1BE5A5CE82B85EB7C3 /* MiniPBUtility.h in Headers */,
+				245E2FBF1F30C0F8CEC1272BE3930150 /* MMKV-umbrella.h in Headers */,
+				498559B304C395158CDBA95EEEA71BA2 /* MMKV.h in Headers */,
+				523B9D067F0DE33E825364662A879FD1 /* MMKVHandler.h in Headers */,
+				B8932304644A72A7643C996138AD5D7B /* MMKVLog.h in Headers */,
+				BF6753716D66FC171551C7B7C27516EA /* MMKVMetaInfo.hpp in Headers */,
+				4481369E2EAD24114B3B4DAD97E8A741 /* openssl_aes.h in Headers */,
+				00FB94E763DB579D34847AF712729A66 /* openssl_aes_locl.h in Headers */,
+				170C1895856D9BA93436EE2B864CECF1 /* openssl_md32_common.h in Headers */,
+				2132E0342F2346B6CDC2CC1562EDBD94 /* openssl_md5.h in Headers */,
+				47B02F1D869111E757EB76F7840F0E92 /* openssl_md5_locl.h in Headers */,
+				69E08155873F500FB1E90E6FB6D87943 /* openssl_modes.h in Headers */,
+				1D27ADEE002515DE2BF2F3868DA463F6 /* openssl_opensslconf.h in Headers */,
+				84F9F837FAA823A7707F81EFEA8D33AE /* ScopedLock.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C9A14B202E08F1B1012A2775149DAF4 /* Headers */ = {
+		F2AD2C3B273ABDD50519FE871102E341 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC70DB840B1D083D98C1EC67C79D66C /* Pods-ELSDK_Example-umbrella.h in Headers */,
+				8176D8A8C67EBE7804CD8437658C290B /* KDCalendar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,19 +751,20 @@
 /* Begin PBXNativeTarget section */
 		2CA990AF6FD8925DB1F114832E048A3C /* Pods-ELSDK_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D83020EDA0D754B04B5AEC5AC0388E8 /* Build configuration list for PBXNativeTarget "Pods-ELSDK_Example" */;
+			buildConfigurationList = 3293FA24D77AEC303BB5E32D6877D055 /* Build configuration list for PBXNativeTarget "Pods-ELSDK_Example" */;
 			buildPhases = (
-				9C9A14B202E08F1B1012A2775149DAF4 /* Headers */,
-				CC7449CE0F8808F5307B95BD50208383 /* Sources */,
-				4957A13725DDB76EC721011635AE183B /* Frameworks */,
-				198F97722B574CC5B72B2699BD7B4698 /* Resources */,
+				17045BC8EF575A4D068CFCE010EF08DE /* Headers */,
+				E4C23CB1DDA69036FFD3101DEED1FE91 /* Sources */,
+				E00DEB049909B354AC993D1017B85438 /* Frameworks */,
+				537BCFF8C6F60A83680BCFA1A45982D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2A97FCD723C8865358343211E75A3BF2 /* PBXTargetDependency */,
-				2108CAFDC39322CD172680ED71FBAB38 /* PBXTargetDependency */,
-				66AFD664C4B3DBFD786296569BB4BE1F /* PBXTargetDependency */,
+				910E8B477C7566C28B0F5048139ECB60 /* PBXTargetDependency */,
+				12440ECFCDC3B1246EE157D4A9D81D68 /* PBXTargetDependency */,
+				9390230D9EE9F78D2948E01F054D4ABA /* PBXTargetDependency */,
+				AA34AFEBB0909614EEA355B77D3B47E1 /* PBXTargetDependency */,
 			);
 			name = "Pods-ELSDK_Example";
 			productName = "Pods-ELSDK_Example";
@@ -601,32 +773,51 @@
 		};
 		722EB06E15550E3888A9C58D04440811 /* ELSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B15CA0287B608BFCB5A5D8CC813ED64 /* Build configuration list for PBXNativeTarget "ELSDK" */;
+			buildConfigurationList = AEFAEF67B9E2D83C57A0C95CC86ECA4F /* Build configuration list for PBXNativeTarget "ELSDK" */;
 			buildPhases = (
-				9C912E1673C8A1E265AFF9C476246993 /* Headers */,
-				D6F9C10A185BBAE3F13886F557E71766 /* Sources */,
-				2619EEE13A8764CF83F194BDACB1B3DD /* Frameworks */,
-				41E5D9229A12AE7655F7915C3A34B986 /* Resources */,
+				272588158FCC1D32D0F47F349FEEFA71 /* Headers */,
+				304E9C0185E612021BCE4C464B297935 /* Sources */,
+				01BDE3E225048E803B829D3BB1A901BA /* Frameworks */,
+				C6289B7DBFFA4F5718E1FB7BFE484A9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0B2AF950B9FC2A6547E41D1A392B4DF2 /* PBXTargetDependency */,
-				76C2B79C65AB2E9B2EFCD168061CEE9C /* PBXTargetDependency */,
+				086FEB1AEB5C5E5084F27261B06CB520 /* PBXTargetDependency */,
+				51379010A0DF87C3BA823EE981FD90A0 /* PBXTargetDependency */,
+				EE968E9AAD4DD116DDB36B387BC56C6C /* PBXTargetDependency */,
 			);
 			name = ELSDK;
 			productName = ELSDK;
 			productReference = 94DCBDB15280BEA67F6B3EED68D5E1C7 /* ELSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 319B79CAF332EB23D6EB46789ABC963C /* Build configuration list for PBXNativeTarget "KDCalendar" */;
+			buildPhases = (
+				F2AD2C3B273ABDD50519FE871102E341 /* Headers */,
+				C56E3475EEA6E12BE53BB47DE2DFD954 /* Sources */,
+				0C707D29FB379CCE9FD89EE21460E892 /* Frameworks */,
+				FDE0E9EC18ACEEDD17E14264C58362A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDCalendar;
+			productName = KDCalendar;
+			productReference = 75DE6E87A0520EAC27562FCAD1B75052 /* KDCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		91A6826828CB9FCD0169A7547E8A79EA /* MMKV */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CC94916BE91AF22F33AF2AE520648085 /* Build configuration list for PBXNativeTarget "MMKV" */;
+			buildConfigurationList = 81F1211A47DBF62C5C0C5DA9D550F6E6 /* Build configuration list for PBXNativeTarget "MMKV" */;
 			buildPhases = (
-				97BD8A150F584E430500EBE07398B634 /* Headers */,
-				8C7BEC6F9D8AA126589F4650FF357DD1 /* Sources */,
-				B282F22137A2C9E55E197918296C8783 /* Frameworks */,
-				48DC6F706906FFCCED829ABF901DFB26 /* Resources */,
+				412F97B93A2F3B5E6771AEC12502F8B7 /* Headers */,
+				91CB7FA301A191261C55063EBA419097 /* Sources */,
+				2A5E6DF2B5D0AB2ABD031547F08453C1 /* Frameworks */,
+				93DD1EA0AAEC1C1DEABE84E70E7CAE0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -692,12 +883,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B75B716E9516B14015425BAB89A9C2A4 /* Products */;
+			productRefGroup = D81F2F4C6C0855F034BE69037E34BF13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				722EB06E15550E3888A9C58D04440811 /* ELSDK */,
+				7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */,
 				91A6826828CB9FCD0169A7547E8A79EA /* MMKV */,
 				2CA990AF6FD8925DB1F114832E048A3C /* Pods-ELSDK_Example */,
 				FF7E72F8A674ADF36B503CA6ACA93A29 /* Pods-ELSDK_Tests */,
@@ -706,20 +898,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		198F97722B574CC5B72B2699BD7B4698 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		41E5D9229A12AE7655F7915C3A34B986 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		473D3E892ABB6C798CFF290644259B34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -727,7 +905,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48DC6F706906FFCCED829ABF901DFB26 /* Resources */ = {
+		537BCFF8C6F60A83680BCFA1A45982D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93DD1EA0AAEC1C1DEABE84E70E7CAE0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6289B7DBFFA4F5718E1FB7BFE484A9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -735,6 +927,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D6BCFB7680A3F0BA6D72E1B3059714FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDE0E9EC18ACEEDD17E14264C58362A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -777,77 +976,109 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C7BEC6F9D8AA126589F4650FF357DD1 /* Sources */ = {
+		304E9C0185E612021BCE4C464B297935 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA9F51704805000266078B5D266F490 /* AESCrypt.mm in Sources */,
-				6C04F8557FFEC04ECF4434CA6BBBBA42 /* MemoryFile.mm in Sources */,
-				BC75F9E533CC5F42E3C7603985EC817F /* MiniCodedInputData.mm in Sources */,
-				64299AE9D0F9DCE539F8EAE8DDCF3A0A /* MiniCodedOutputData.mm in Sources */,
-				F842D7B46216F51DEA476F04BB372DAD /* MiniPBCoder.mm in Sources */,
-				B645E35526439F6818DAF383470CEC39 /* MiniPBUtility.mm in Sources */,
-				27EA5E5A756117E2057BF14995B3A1EA /* MMKV-dummy.m in Sources */,
-				4737CF0CFFE370A5BC4871FED21082A8 /* MMKV.mm in Sources */,
-				E494F8B8DE19F6B3F6EADB6688FF3091 /* MMKVLog.mm in Sources */,
-				F00D04EB066C7BBAE0DBB3EF439AAD72 /* openssl_aes_cfb.cpp in Sources */,
-				23B57B2CD3DC0661AF5C6AC7D183F6D3 /* openssl_aes_core.cpp in Sources */,
-				ABB1E4006EC46652D5FEEB73E6944D0E /* openssl_cfb128.cpp in Sources */,
-				F365D43D46D278C2A92381155EA4C4AD /* openssl_md5_dgst.cpp in Sources */,
-				A0A3E8701385AEDB38418316A816B2ED /* openssl_md5_one.cpp in Sources */,
+				ABC85F99239DE80600316FAE /* UIView+Toast.m in Sources */,
+				86CCD0725C6180C6C3CA0ABA97DB7E2C /* ELSDK-dummy.m in Sources */,
+				107A3043319B7F4986F4BBD3E4312B4E /* ReplaceMe.swift in Sources */,
+				ABC85F9E239DE80600316FAE /* FlurryWatchEmpty.m in Sources */,
+				ABC85F9D239DE80600316FAE /* FlurryEmpty.m in Sources */,
+				AD5311073FD4A2DC444252E1C62630E5 /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC7449CE0F8808F5307B95BD50208383 /* Sources */ = {
+		91CB7FA301A191261C55063EBA419097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D418A8C46E52839DEF232C62209CB6DD /* Pods-ELSDK_Example-dummy.m in Sources */,
+				23955BF56D4DF6442433B180173083D4 /* AESCrypt.mm in Sources */,
+				EBA1061BAA5725AEC725DEE9FF11B249 /* MemoryFile.mm in Sources */,
+				989EDBC13194B0CBB52457DEA704CC30 /* MiniCodedInputData.mm in Sources */,
+				992624E0A9821CEF46856C48DFEF25ED /* MiniCodedOutputData.mm in Sources */,
+				F86550A12B76E24196B15CE142E311DA /* MiniPBCoder.mm in Sources */,
+				28BC9A2D482C3FB93466CF588911B349 /* MiniPBUtility.mm in Sources */,
+				67D0C6CCCF6D936342E207B4F27986F3 /* MMKV-dummy.m in Sources */,
+				22514BE81A406E746F92053587E35338 /* MMKV.mm in Sources */,
+				1C59DA9123E6C252986E5467CCF86132 /* MMKVLog.mm in Sources */,
+				6A9F1462CC882CD3141BDBE14FDA4E01 /* openssl_aes_cfb.cpp in Sources */,
+				DF1A57D99E965706F6D7F2A25A71BE5E /* openssl_aes_core.cpp in Sources */,
+				C8E82085FF9795EEBB06330275807F52 /* openssl_cfb128.cpp in Sources */,
+				6C9C09655A86D8BFCA140E62DB31E438 /* openssl_md5_dgst.cpp in Sources */,
+				AC8471E44B3BEF6339E63771382B6B3A /* openssl_md5_one.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6F9C10A185BBAE3F13886F557E71766 /* Sources */ = {
+		C56E3475EEA6E12BE53BB47DE2DFD954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F61B855163CD7CC4170F9D02CCCE8D6E /* ELSDK-dummy.m in Sources */,
-				3B276E4CBE9157C77552FBF78BE8AAD6 /* ReplaceMe.swift in Sources */,
-				6A3877573E412CA5D5856054877B6173 /* Test.swift in Sources */,
+				A8F52F7BC9B68CB52F22A124064B5849 /* CalendarDayCell.swift in Sources */,
+				8C15DCD0742E7C9878F5CA36C9ED0A23 /* CalendarFlowLayout.swift in Sources */,
+				EFB44DDF2D2FA57F345910F4E4E51D4C /* CalendarHeaderView.swift in Sources */,
+				2AB8C897F06E71F3A0BEC3339EA9F9A4 /* CalendarView+DataSource.swift in Sources */,
+				23942FD567E9B313E1A443657905C980 /* CalendarView+Delegate.swift in Sources */,
+				D860DC31B7DBC7331123BB5D3138078D /* CalendarView+Extensions.swift in Sources */,
+				1F501E1D166863548D75D1236384FFD1 /* CalendarView+Style.swift in Sources */,
+				C2E18A96CD1AEBF817AC574EDD2662DF /* CalendarView.swift in Sources */,
+				2065C1F02C8405401A98266128AA4D39 /* EventsManager.swift in Sources */,
+				C97E3CE683DE8B5B7B449CE347F451D0 /* KDCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C23CB1DDA69036FFD3101DEED1FE91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4F32F8A0FA983817CB1ED27C038166 /* Pods-ELSDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0B2AF950B9FC2A6547E41D1A392B4DF2 /* PBXTargetDependency */ = {
+		086FEB1AEB5C5E5084F27261B06CB520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 454197EF5048DECB4914A69C3A41C119 /* PBXContainerItemProxy */;
+			targetProxy = 85D69D12E9B5021229F1D6C5C2AC141E /* PBXContainerItemProxy */;
 		};
-		2108CAFDC39322CD172680ED71FBAB38 /* PBXTargetDependency */ = {
+		12440ECFCDC3B1246EE157D4A9D81D68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ELSDK;
 			target = 722EB06E15550E3888A9C58D04440811 /* ELSDK */;
-			targetProxy = F6C2488526B8436D198C0D8E1B95C51D /* PBXContainerItemProxy */;
+			targetProxy = 05B8A550C548B812170EB31328C71188 /* PBXContainerItemProxy */;
 		};
-		2A97FCD723C8865358343211E75A3BF2 /* PBXTargetDependency */ = {
+		51379010A0DF87C3BA823EE981FD90A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDCalendar;
+			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
+			targetProxy = 697BF7357DD9ED730A43A7A6625D67EB /* PBXContainerItemProxy */;
+		};
+		910E8B477C7566C28B0F5048139ECB60 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = 75C2A83DAEB901EAE5F773797B245F48 /* PBXContainerItemProxy */;
+			targetProxy = 9BE0C1617621454D7D210ACF4C3FD641 /* PBXContainerItemProxy */;
 		};
-		66AFD664C4B3DBFD786296569BB4BE1F /* PBXTargetDependency */ = {
+		9390230D9EE9F78D2948E01F054D4ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KDCalendar;
+			target = 7BB7A4D260FDCE05D3AB31199589BBE5 /* KDCalendar */;
+			targetProxy = 43DC0702E4FADDE3840DCA021053B37B /* PBXContainerItemProxy */;
+		};
+		AA34AFEBB0909614EEA355B77D3B47E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMKV;
 			target = 91A6826828CB9FCD0169A7547E8A79EA /* MMKV */;
-			targetProxy = 364D831E585BE3DE181A6723A2B201C9 /* PBXContainerItemProxy */;
+			targetProxy = 7EBF531C3EAFA06E765251A89FE384E3 /* PBXContainerItemProxy */;
 		};
-		76C2B79C65AB2E9B2EFCD168061CEE9C /* PBXTargetDependency */ = {
+		EE968E9AAD4DD116DDB36B387BC56C6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MMKV;
 			target = 91A6826828CB9FCD0169A7547E8A79EA /* MMKV */;
-			targetProxy = F9AA7DDF301C5A19F2B0FA7A570FF069 /* PBXContainerItemProxy */;
+			targetProxy = D56E0FD220680FB6FB339F743F963765 /* PBXContainerItemProxy */;
 		};
 		FC356A64EB5F201DFD0D87451E5F0684 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -858,71 +1089,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D5641A6409D9981D6C6A1F082B7A7E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B9859F0DDA432B8FC40D61CF54F2E12 /* Pods-ELSDK_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2CCC379BBF6858B35F1D5087CD279A3A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 552FF419EAD61F89CB26FE88BADF6EBE /* ELSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ELSDK/ELSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ELSDK/ELSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ELSDK/ELSDK.modulemap";
-				PRODUCT_MODULE_NAME = ELSDK;
-				PRODUCT_NAME = ELSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		2DC513EF544A8AD00A166606F3F029F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 944BBFCCA5C9B7C7E2E4A6048040A865 /* Pods-ELSDK_Tests.release.xcconfig */;
@@ -957,6 +1123,37 @@
 			};
 			name = Release;
 		};
+		30A122C28C9D45528F5848924800844A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8865FAF68E1CA0A7EEF714B376B46650 /* MMKV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
+				PRODUCT_MODULE_NAME = MMKV;
+				PRODUCT_NAME = MMKV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		39A436F8EF6BF2BB8D55FDA6E8B1342A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 43C6753064C49C417F1AB85B07280321 /* Pods-ELSDK_Tests.debug.xcconfig */;
@@ -990,72 +1187,9 @@
 			};
 			name = Debug;
 		};
-		59FEE2942904A6FDBD83EFDFCA7D0B65 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 552FF419EAD61F89CB26FE88BADF6EBE /* ELSDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ELSDK/ELSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ELSDK/ELSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ELSDK/ELSDK.modulemap";
-				PRODUCT_MODULE_NAME = ELSDK;
-				PRODUCT_NAME = ELSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		686CE58325BD9694983A95DCB27779AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E814A4AA65FB746B68C3FC77F4547EB /* MMKV.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
-				PRODUCT_MODULE_NAME = MMKV;
-				PRODUCT_NAME = MMKV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		75BBB760DFD877E344322B54D29DFE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE014359C1325A5B54597B712F159FC7 /* Alamofire.xcconfig */;
+			baseConfigurationReference = BB0389264FEB86EADCE037A5B5F8C504 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1084,9 +1218,9 @@
 			};
 			name = Debug;
 		};
-		78E7945F1E27C2DDB8B845FD98B549A7 /* Debug */ = {
+		841775D800FBC1D1C9B8E45E2A0BC779 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71DB753AC920050551AD3BB7D035317B /* Pods-ELSDK_Example.debug.xcconfig */;
+			baseConfigurationReference = 5B9859F0DDA432B8FC40D61CF54F2E12 /* Pods-ELSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1111,37 +1245,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8D5273A778A43E70F8F1066F4D3983BB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E814A4AA65FB746B68C3FC77F4547EB /* MMKV.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
-				PRODUCT_MODULE_NAME = MMKV;
-				PRODUCT_NAME = MMKV;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1202,12 +1305,75 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B46E9CEF0A06AB9AAC334D9BC1DAF32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E19EE3B8836FD3E313911487D2076FB /* KDCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCalendar/KDCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCalendar/KDCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDCalendar/KDCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KDCalendar;
+				PRODUCT_NAME = KDCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4ABAA43CE560F97F8CB1CE42938FB20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71DB753AC920050551AD3BB7D035317B /* Pods-ELSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1273,9 +1439,134 @@
 			};
 			name = Debug;
 		};
+		CD0E00B7258753375EFC76BD2A3A748C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552FF419EAD61F89CB26FE88BADF6EBE /* ELSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ELSDK/ELSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ELSDK/ELSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ELSDK/ELSDK.modulemap";
+				PRODUCT_MODULE_NAME = ELSDK;
+				PRODUCT_NAME = ELSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0A3D996B61BB5CF0EB5E645F48D9349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8865FAF68E1CA0A7EEF714B376B46650 /* MMKV.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMKV/MMKV-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMKV/MMKV-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMKV/MMKV.modulemap";
+				PRODUCT_MODULE_NAME = MMKV;
+				PRODUCT_NAME = MMKV;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E731746ED69E0CC107C19E43B6D04D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E19EE3B8836FD3E313911487D2076FB /* KDCalendar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KDCalendar/KDCalendar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KDCalendar/KDCalendar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KDCalendar/KDCalendar.modulemap";
+				PRODUCT_MODULE_NAME = KDCalendar;
+				PRODUCT_NAME = KDCalendar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F8007919F49201B7ABF2C8BFD0D3DCEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552FF419EAD61F89CB26FE88BADF6EBE /* ELSDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ELSDK/ELSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ELSDK/ELSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ELSDK/ELSDK.modulemap";
+				PRODUCT_MODULE_NAME = ELSDK;
+				PRODUCT_NAME = ELSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		F94FD07C591B17B7E61A1528AB9BCB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE014359C1325A5B54597B712F159FC7 /* Alamofire.xcconfig */;
+			baseConfigurationReference = BB0389264FEB86EADCE037A5B5F8C504 /* Alamofire.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1308,6 +1599,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		319B79CAF332EB23D6EB46789ABC963C /* Build configuration list for PBXNativeTarget "KDCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E731746ED69E0CC107C19E43B6D04D97 /* Debug */,
+				B46E9CEF0A06AB9AAC334D9BC1DAF32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3293FA24D77AEC303BB5E32D6877D055 /* Build configuration list for PBXNativeTarget "Pods-ELSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4ABAA43CE560F97F8CB1CE42938FB20 /* Debug */,
+				841775D800FBC1D1C9B8E45E2A0BC779 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1317,20 +1626,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B15CA0287B608BFCB5A5D8CC813ED64 /* Build configuration list for PBXNativeTarget "ELSDK" */ = {
+		81F1211A47DBF62C5C0C5DA9D550F6E6 /* Build configuration list for PBXNativeTarget "MMKV" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2CCC379BBF6858B35F1D5087CD279A3A /* Debug */,
-				59FEE2942904A6FDBD83EFDFCA7D0B65 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8D83020EDA0D754B04B5AEC5AC0388E8 /* Build configuration list for PBXNativeTarget "Pods-ELSDK_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78E7945F1E27C2DDB8B845FD98B549A7 /* Debug */,
-				0D5641A6409D9981D6C6A1F082B7A7E1 /* Release */,
+				30A122C28C9D45528F5848924800844A /* Debug */,
+				D0A3D996B61BB5CF0EB5E645F48D9349 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1344,11 +1644,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CC94916BE91AF22F33AF2AE520648085 /* Build configuration list for PBXNativeTarget "MMKV" */ = {
+		AEFAEF67B9E2D83C57A0C95CC86ECA4F /* Build configuration list for PBXNativeTarget "ELSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				686CE58325BD9694983A95DCB27779AE /* Debug */,
-				8D5273A778A43E70F8F1066F4D3983BB /* Release */,
+				F8007919F49201B7ABF2C8BFD0D3DCEF /* Debug */,
+				CD0E00B7258753375EFC76BD2A3A748C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
