@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		38761DDDFCB94B8EF980C34F /* libPods-ELSDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C46C291B08C89C7C064BE0A0 /* libPods-ELSDK_Tests.a */; };
-		5A11CD8ECF93F743163E6719 /* libPods-ELSDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C64D87DB1900326A5B6FD5B1 /* libPods-ELSDK_Example.a */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		6155FCEF6F40ABEDDC2A8A8D /* Pods_ELSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A23FD4CF790C616AE4EA5E5 /* Pods_ELSDK_Example.framework */; };
+		D62553DB87C9362D91C2B2CF /* Pods_ELSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40017AC0DE19843857EAE194 /* Pods_ELSDK_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		03B4A8E17B60A842D7E4F239 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40017AC0DE19843857EAE194 /* Pods_ELSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ELSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +40,13 @@
 		607FACE51AFB9204008FA782 /* ELSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8A23FD4CF790C616AE4EA5E5 /* Pods_ELSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61F08123C7649F9A48DE72 /* Pods-ELSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		95F258163C6D495756A546FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9B469B607C811BF373DBBE55 /* Pods-ELSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AA4658FACD038654E48D76DE /* Pods-ELSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-ELSDK_Tests/Pods-ELSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9D6AB3483031D8AC126E526 /* ELSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ELSDK.podspec; path = ../ELSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA466CB16442047B52F2F77F /* Pods-ELSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ELSDK_Tests/Pods-ELSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C46C291B08C89C7C064BE0A0 /* libPods-ELSDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C64D87DB1900326A5B6FD5B1 /* libPods-ELSDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ELSDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A11CD8ECF93F743163E6719 /* libPods-ELSDK_Example.a in Frameworks */,
+				6155FCEF6F40ABEDDC2A8A8D /* Pods_ELSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38761DDDFCB94B8EF980C34F /* libPods-ELSDK_Tests.a in Frameworks */,
+				D62553DB87C9362D91C2B2CF /* Pods_ELSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		C8C926E5621CB1E1E4C5239F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C64D87DB1900326A5B6FD5B1 /* libPods-ELSDK_Example.a */,
-				C46C291B08C89C7C064BE0A0 /* libPods-ELSDK_Tests.a */,
+				8A23FD4CF790C616AE4EA5E5 /* Pods_ELSDK_Example.framework */,
+				40017AC0DE19843857EAE194 /* Pods_ELSDK_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,6 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
+				2412B0D4A94215AD8478EBD2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -263,6 +264,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2412B0D4A94215AD8478EBD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/ELSDK/ELSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
+				"${BUILT_PRODUCTS_DIR}/KDCalendar/KDCalendar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ELSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KDCalendar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ELSDK_Example/Pods-ELSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9CD4F8FF5EF537B82B9F919B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
