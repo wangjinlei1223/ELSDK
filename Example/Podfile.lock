@@ -1,13 +1,15 @@
 PODS:
   - Alamofire (4.9.1)
+  - AppsFlyerFramework (5.0.0)
   - Bolts (1.9.0):
     - Bolts/AppLinks (= 1.9.0)
     - Bolts/Tasks (= 1.9.0)
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - ELSDK (2.0.4):
+  - ELSDK (2.0.5):
     - Alamofire
+    - AppsFlyerFramework
     - Bolts
     - FBSDKCoreKit
     - Flurry-iOS-SDK/FlurrySDK
@@ -29,6 +31,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AppsFlyerFramework
     - Bolts
     - FBSDKCoreKit
     - Flurry-iOS-SDK
@@ -40,8 +43,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AppsFlyerFramework: 06f3c13fea4068757004065db8ac75672f69520e
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  ELSDK: 8ee1ab6a3696bc3aa522f553a2d82d72a68ea973
+  ELSDK: 4124bfb1091ca4b14d2e0754fbe5a2a943a39d5e
   FBSDKCoreKit: fa3ac4dc9b1afc9ae70b3de4dd704d1b6aeeed0d
   Flurry-iOS-SDK: be6bfad47f3b3c15a38b5e396935ef74512f1c38
   KDCalendar: 114f8d2dd091608c2d8db7d5783c96a4c4a60398
